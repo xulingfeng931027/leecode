@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <bean id="car" class="spring.Car">
+        <property name="name" value="paul"/>
+        <property name="age" value="20"/>
+        <property name="length" value="177"/>
+
+    </bean>
+</beans>
