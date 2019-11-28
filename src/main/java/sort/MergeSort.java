@@ -43,7 +43,7 @@ public class MergeSort {
         //把临时数组赋值给原数组
         System.arraycopy(temp, 0, arr, left, temp.length);
     }
-
+    //实现较复杂
     private void merge2(int[] arr, int left, int middle, int right) {
         //先建立一个临时空间,将arr[left,right]这段数组copy进去
         int[] tempArr = new int[right - left + 1];
