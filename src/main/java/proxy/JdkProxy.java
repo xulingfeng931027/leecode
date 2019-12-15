@@ -30,6 +30,7 @@ public class JdkProxy implements InvocationHandler {
         System.out.println("方法执行前");
         Object result = method.invoke(myInterface, args);
         System.out.println("方法执行后");
+    System.setProperty("sun.misc.ProxyGenerator.saveGeneratedFiles", "true");
         return result;
     }
 }
