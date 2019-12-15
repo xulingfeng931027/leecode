@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 /*
  * todo 描述作用
  *
@@ -19,6 +22,11 @@ public class JavaBean {
     }
 
     public static void main(String[] args) {
-
+        Set<Integer> set = new HashSet<>(2);
+        set.add(1);
+        set.add(2);
+        set.add(4);
+        set.add(8);
+        System.out.println(set);
     }
 }

@@ -1,6 +1,8 @@
 package spring;
 
 import org.junit.Test;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**
  * todo 描述作用
@@ -11,9 +13,8 @@ import org.junit.Test;
 public class SimpleIOCTest {
     @Test
     public void getBean() throws Exception {
-        String location = SimpleIOC.class.getClassLoader().getResource("spring-test.xml").getFile();
-        SimpleIOC bf = new SimpleIOC(location);
-        Car car = (Car) bf.getBean("car");
+        ApplicationContext context = new ClassPathXmlApplicationContext("spring-test.xml");
+        Car car = (Car) context.getBean("car");
         System.out.println(car);
     }
 }

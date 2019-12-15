@@ -2,6 +2,8 @@ package linked;
 
 import org.junit.Test;
 
+import java.io.IOException;
+
 /**
  * 反转单链表
  *
@@ -10,17 +12,14 @@ import org.junit.Test;
  */
 public class ReverseLinked {
 
-    @Test public void test() {
+    @Test public void test() throws InterruptedException, IOException {
         ListNode node6 = new ListNode(6, null);
         ListNode node5 = new ListNode(5, node6);
-
-        ListNode node4 = new ListNode(5, node5);
-
-        ListNode node3 = new ListNode(3, node4);
-        ListNode node2 = new ListNode(5, node3);
-        ListNode node1 = new ListNode(1, node2);
-
-        System.out.println(cleanNodes(node1));
+        ListNode node4 = new ListNode(4, node5);
+        //        ListNode node3 = new ListNode(3, node4);
+        new Thread(() -> System.out.println(reverse(node5))).start();
+        new Thread(() -> System.out.println(reverse(node5))).start();
+        System.in.read();
     }
 
     //空间o(1) 时间o(n)
@@ -29,15 +28,16 @@ public class ReverseLinked {
             return head;
         }
         ListNode newNode = null;
+
         while (head != null) {
             // 临时节点，暂存当前节点的下一节点
-            ListNode nextTemp = head.next;
+            ListNode next = head.next;
             // 将当前节点的下一节点指向新节点,这样就将新节点跟摘出来的原节点连上了
             head.next = newNode;
             // 将新节点的指针指向当前头节点.
             newNode = head;
             // 沿着临时指针继续往下走
-            head = nextTemp;
+            head = next;
         }
         return newNode;
     }

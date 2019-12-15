@@ -8,14 +8,11 @@ import lombok.NoArgsConstructor;
  * todo 描述作用
  *
  * @author 逼哥
- * @date 2019/10/21
+ * @date 2019/12/2
  */
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
-public class Car {
-    private String name;
-    private int length;
-    private int age;
-    private Person person;
+public class Person {
+    private String name;;
 }
