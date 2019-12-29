@@ -16,8 +16,6 @@ public class BaseRecursion {
             return str;
         }
         //将字符串分为  a 和bcde   再分为b 和cde 最后倒着返回.
-        String result = helper(str.substring(1)) + str.charAt(0);
-        System.out.println(result);
-        return result;
+        return helper(str.substring(1)) + str.charAt(0);
     }
 }
