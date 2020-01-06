@@ -11,6 +11,7 @@ public class 链表两数相加 {
         if (l1 == null || l2 == null) {
             return null;
         }
+        //创建一个哨兵节点用于存储链表指针位置
         ListNode dummyNode = new ListNode(0);
         ListNode head = dummyNode;
         int carry = 0;
@@ -25,11 +26,14 @@ public class 链表两数相加 {
                 y = l2.val;
                 l2 = l2.next;
             }
+            //两个个位数加上进位  最大为19
             int z = (x + y + carry);
             dummyNode.next = new ListNode(z % 10);
             dummyNode = dummyNode.next;
+            //如果z>=10说明要进位 将进位标识设为1
             carry = z >= 10 ? 1 : 0;
         }
+        //注意这里是倒着加的,因此如果最后一位也需要进位的话 需要在链表尾部加1
         if (carry > 0) {
             dummyNode.next = new ListNode(carry);
         }
