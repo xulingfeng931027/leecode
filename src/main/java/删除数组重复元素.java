@@ -1,6 +1,6 @@
-package array;
-
 import org.junit.Test;
+
+import java.util.Arrays;
 
 /**
  * @author 逼哥
@@ -14,26 +14,29 @@ import org.junit.Test;
  * <p>函数应该返回新的长度 5, 并且原数组 nums 的前五个元素被修改为 0, 1, 2, 3, 4。
  * <p>你不需要考虑数组中超出新长度后面的元素。
  */
-public class Solution1 {
+public class 删除数组重复元素 {
     public int removeDuplicates(int[] nums) {
-        int duplicateNums = 0;
-        int temp = nums[0];
-        for (int i = 0; i < nums.length - 1; i++) {
-            int left = temp;
-            int right = nums[i + 1];
-            if (left == right) {
-                duplicateNums++;
-                if (i + 2 < nums.length) {
-                    nums[i + 1] = nums[i + 2];
-                }
-            }
+        if (nums == null || nums.length == 0) {
+            return 0;
         }
-        return nums.length - duplicateNums;
+        //慢指针
+        int i = 0;
+        for (int j = 0; j < nums.length; j++) {
+            if (nums[j] != nums[i]) {
+                i++;
+                nums[i] = nums[j];
+            }
+            System.out.println(Arrays.toString(nums));
+            System.out.println("i=" + i + ",j=" + j);
+        }
+        return ++i;
     }
 
     @Test
     public void test() {
         int[] nums = {1, 1, 2, 3, 4, 4};
         System.out.println(removeDuplicates(nums));
+        System.out.println(Arrays.toString(nums));
+
     }
 }
