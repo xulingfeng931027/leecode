@@ -93,11 +93,13 @@ public class 三数之和 {
                 if (left + right == target && i != lIndex && i != rIndex) {
                     addListToResult(result, nums[i], left, right);
                     while (lIndex < rIndex && nums[lIndex] == nums[lIndex + 1]) {
+                        //去重
                         lIndex++;
                     }
                     while (lIndex < rIndex && nums[rIndex] == nums[rIndex - 1]) {
                         rIndex--;
                     }
+                    //找到后挪动两个指针  找下一对
                     lIndex++;
                     rIndex--;
                 } else if (left + right > target) {
