@@ -1,8 +1,5 @@
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.Comparator;
-
 /**
  *
  * @author 徐凌峰
@@ -31,19 +28,52 @@ public class 最长公共前缀 {
 // 所有输入只包含小写字母 a-z 。
 // Related Topics 字符串
 
-    public String longestCommonPrefix(String[] strs) {
-        Arrays.sort(strs, Comparator.comparingInt(String::length));
-        String shortStr = strs[0];
-
-        for (int i = 0; i < strs.length; i++) {
-
+    public String longestCommonPrefix1(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return "";
         }
-        return "";
+        String prefix = strs[0];
+        for (int i = 0; i < prefix.length(); i++) {
+            String childStr = prefix.substring(0, i + 1);
+            boolean flag = true;
+            for (String str : strs) {
+                if (!str.startsWith(childStr)) {
+                    flag = false;
+                    break;
+                }
+            }
+            if (!flag) {
+                return prefix.substring(0, i);
+            }
+        }
+        return prefix;
+    }
 
+    public String longestCommonPrefix2(String[] strs) {
+        if (strs == null || strs.length == 0) {
+            return "";
+        }
+        String prefix = strs[0];
+        for (int i = 1; i < strs.length; i++) {
+            while (!strs[i].startsWith(prefix)) {
+                prefix = prefix.substring(0, prefix.length() - 1);
+                if (prefix.isEmpty()) {
+                    return "";
+                }
+
+            }
+        }
+
+        return prefix;
     }
 
 
     @Test
     public void test() {
+        String[] strs = {"dog","racecar","car"};
+//        String[] strs = {"d"};
+//        String[] strs = {  "flower","flow","flight"};
+//        String[] strs = {  };
+        System.out.println(longestCommonPrefix1(strs));
     }
 }
