@@ -1,7 +1,9 @@
 import org.junit.Test;
 
+import java.util.Arrays;
+import java.util.Comparator;
+
 /**
- * todo 描述作用
  *
  * @author 徐凌峰
  * @date 2020/1/8
@@ -30,7 +32,12 @@ public class 最长公共前缀 {
 // Related Topics 字符串
 
     public String longestCommonPrefix(String[] strs) {
+        Arrays.sort(strs, Comparator.comparingInt(String::length));
+        String shortStr = strs[0];
 
+        for (int i = 0; i < strs.length; i++) {
+
+        }
         return "";
 
     }
