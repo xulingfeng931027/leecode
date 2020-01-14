@@ -84,20 +84,3 @@ public class 合并两个有序链表 {
 }
 //leetcode submit region end(Prohibit modification and deletion)
 
-class ListNode {
-    int val;
-    ListNode next;
-
-    ListNode(int x) {
-        val = x;
-    }
-
-    @Override
-    public String toString() {
-        return new StringJoiner(", ", ListNode.class.getSimpleName() + "[", "]")
-                .add("val=" + val)
-                .add("next=" + next)
-                .toString();
-    }
-}
-
