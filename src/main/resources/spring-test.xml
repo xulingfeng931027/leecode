@@ -11,4 +11,5 @@
     <bean id="person" class="spring.Person">
         <property name="name" value="paul"/>
     </bean>
+    <bean id="applicationContextAwareTest" class="spring.ApplicationContextAwareTest"/>
 </beans>

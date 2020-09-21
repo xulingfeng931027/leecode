@@ -14,18 +14,19 @@ public class 回文数 {
         if (x == 0) {
             return true;
         }
-        //得到x的位数
-        int zeroNum = 0;
-        while (x != 0) {
-            x /= 10;
-            zeroNum++;
+        // 得到x的位数
+        int div = 1;
+        while (x / div >= 10) {
+            div *= 10;
         }
-        for (int i = 0; i < zeroNum / 2; i++) {
-            double left = (x / Math.pow(10, i)) % 10;
-            double right = (x / Math.pow(10, zeroNum - i - 1)) % 10;
+        while (x > 0) {
+            int left = x / div;
+            int right = x % 10;
             if (left != right) {
                 return false;
             }
+            x = (x % div) / 10;
+            div /= 100;
         }
         return true;
 
@@ -35,7 +36,7 @@ public class 回文数 {
 
     @Test
     public void test() {
-        int n = 1234;
+        int n = 1;
 //        int qian = (n / 1000) % 10;
 //        int bai = (n / 100) % 10;
 //        int shi = (n / 10) % 10;
@@ -44,6 +45,6 @@ public class 回文数 {
 //        System.out.println(bai);
 //        System.out.println(shi);
 //        System.out.println(ge);
-        System.out.println(isPalindrome(n));
+        System.out.println(isPalindrome(123321));
     }
 }

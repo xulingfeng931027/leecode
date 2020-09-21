@@ -12,7 +12,32 @@ public class BinarySearchTree {
     /**
      * 根节点
      */
-    private Node tree;
+    private Node root;
+
+    /**
+     * 判断查找树是否合法
+     *
+     * @param root 根节点
+     * @return boolean
+     * @author lingfeng.xu
+     * @date 2020/9/13 12:18
+     */
+    public boolean isValid(Node root) {
+        return isValid0(root, null, null);
+    }
+
+    private boolean isValid0(Node root, Node max, Node min) {
+        if (root == null) {
+            return true;
+        }
+        if (min != null && root.data <= min.data) {
+            return false;
+        }
+        if (max != null && root.data >= max.data) {
+            return false;
+        }
+        return isValid0(root.left, min, root) && isValid0(root.right, root, max);
+    }
 
     /**
      * 寻找某个给定值的节点
@@ -20,20 +45,20 @@ public class BinarySearchTree {
      * @param data
      * @return
      */
-    public Node find(int data) {
-        Node head = tree;
-        while (head != null) {
-            if (head.data < data) {
-                head = head.left;
-            } else if (head.data > data) {
-                head = head.right;
-            } else {
-                return head;
-            }
+    public Node isInBST(Node root, int target) {
+        if (root == null) {
+            return null;
         }
-        return null;
+        if (root.data == target) {
+            return root;
+        }
+        if (root.data < target) {
+            return isInBST(root.right, target);
+        } else {
+            return isInBST(root.left, target);
+        }
     }
-
+    
     /**
      * 插入节点
      *
@@ -42,7 +67,7 @@ public class BinarySearchTree {
      */
     public void insert(int val) {
         Node node = new Node(val);
-        Node head = tree;
+        Node head = root;
         while (head != null) {
             //遍历右节点
             if (head.data < val) {
@@ -73,7 +98,7 @@ public class BinarySearchTree {
      */
     public boolean delete(int val) {
         //记录的是待删除节点的父节点
-        Node note = tree;
+        Node note = root;
         Node toDel = null;
         while (note != null && note.data != val) {
             toDel = note;
@@ -105,7 +130,7 @@ public class BinarySearchTree {
     /**
      * 节点内部类
      */
-    private static class Node {
+    static class Node {
         private int data;
         private Node left;
         private Node right;

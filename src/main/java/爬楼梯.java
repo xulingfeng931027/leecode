@@ -62,17 +62,34 @@ public class 爬楼梯 {
         int first = climbStairs2(n - 1);
         int second = climbStairs2(n - 2);
         map.put(n, first + second);
-        return first +second;
-
+        return first + second;
     }
 
+    public int climbStairs3(int n) {
+        if (n == 1 || n == 2) {
+            return n;
+        }
+        return climbStairs3(n - 1) + climbStairs3(n - 2);
+    }
 
+    public int climbStairs4(int n) {
+        int[] dp = new int[n + 1];
+        dp[1] = 1;
+        dp[2] = 2;
+        for (int i = 3; i <= n; i++) {
+            dp[i] = dp[i - 1] + dp[i - 2];
+        }
+        return dp[n];
+    }
 //leetcode submit region end(Prohibit modification and deletion)
 
 
     @Test
     public void test() {
-        System.out.println(climbStairs1(10));
-        System.out.println(climbStairs2(10));
+//        System.out.println(climbStairs1(10));
+//        System.out.println(climbStairs2(10));
+//        System.out.println(climbStairs3(10));
+        System.out.println(climbStairs4(20));
+
     }
 }
