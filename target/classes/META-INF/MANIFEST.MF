@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Main-Class: FinalReferenceTest
+Class-Path: netty-all-4.0.42.Final.jar netty-3.2.5.Final.jar commons-log
+ ging-1.2.jar rocketmq-remoting-4.5.2.jar hamcrest-core-1.3.jar spring-c
+ ontext-4.3.11.RELEASE.jar fastjson-1.2.51.jar rocketmq-client-4.5.2.jar
+  javassist-3.20.0-GA.jar rocketmq-common-4.5.2.jar netty-tcnative-borin
+ gssl-static-1.1.33.Fork26.jar spring-core-4.3.11.RELEASE.jar spring-bea
+ ns-4.3.11.RELEASE.jar dubbo-2.6.7.jar spring-expression-4.3.11.RELEASE.
+ jar rocketmq-logging-4.5.2.jar commons-lang3-3.4.jar junit-4.12.jar spr
+ ing-aop-4.3.11.RELEASE.jar
+
