@@ -22,79 +22,42 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ArrayUnblockingQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/MinStack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SnowFlake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bfs/二叉树按层遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bfs/密码锁.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bfs/遍历二叉树最短路径.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/N皇后.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/二进制手表.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/全排列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/子集.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/子集_归纳.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/电话号码的字母组合.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/路径总和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/零钱兑换.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/ChooseSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/SortExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/BalancedTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/FullTwoTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/TreeNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/二叉树中序遍历.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/下一个更大元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_备忘录递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_备忘录递归2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_暴力递归.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/找高个儿.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/整数反转.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/最小公倍数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/有效的括号.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MyBatisCodeHelperDatasource.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/leecode_jar.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/paul_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/eclipseCodeFormatter.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/google-java-format.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leecode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/smartfox_info.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/leecode.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ClassLoadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ClassLoadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/FinalReferenceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaBean.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ThreadLocalTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mq/Producer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mq/PullConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mq/PushConsumer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/JdkProxy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/MyInterface.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/proxy/MyInterfaceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/SimpleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/SimpleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/Car.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/SimpleIOC.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/spring/SimpleIOCTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/BinarySearchTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/两数之和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/两数之和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回文数.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回文数.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/爬楼梯.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/爬楼梯.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-test.xml" afterDir="false" />
+    <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
+      <change afterPath="$PROJECT_DIR$/.idea/leecode.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/二叉树节点和.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/InOrderTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/PreOrderTraverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/TreeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/前中序遍历还原二叉树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/tree/有序数组转为二叉搜索树.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列2号.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/N皇后.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/N皇后.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/二进制手表.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/二进制手表.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/子集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/子集.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/子集_归纳.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/子集_归纳.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/电话号码的字母组合.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/电话号码的字母组合.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/路径总和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/路径总和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dfs/零钱兑换.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/零钱兑换.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guava/BiMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guava/GuavaTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/guava/MultiMapTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/BalancedTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/BalancedTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Tree.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/tree/二叉树中序遍历.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/tree/二叉树中序遍历.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/N皇后.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/二进制手表.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/子集.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/子集_归纳.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/电话号码的字母组合.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/路径总和.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dfs/零钱兑换.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/BalancedTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/BalancedTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/Tree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/tree/二叉树中序遍历.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/tree/二叉树中序遍历.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,13 +82,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="MERGE" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+    <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="JupyterTrust" id="95c403bc-a91a-4b04-bcdb-93d361f80ad7" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="C:\Users\paul\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\202.7319.45\plugins\maven\lib\maven3" />
+        <option name="mavenHome" value="C:\Users\paul\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\203.3645.34\plugins\maven\lib\maven3" />
         <option name="userSettingsFile" value="D:\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -140,9 +104,8 @@
   </component>
   <component name="ProjectId" id="1Qe1DPLEHTpuLrPkthChyEzuXAp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <OptionsSetting value="false" id="Update" />
     <OptionsSetting value="false" id="更新" />
-    <ConfirmationsSetting value="2" id="Add" />
+    <OptionsSetting value="false" id="Update" />
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -157,6 +120,7 @@
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -175,23 +139,23 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="回溯" />
+      <recent name="tree" />
       <recent name="回溯算法" />
       <recent name="动态规划" />
       <recent name="proxy" />
-      <recent name="mq" />
-      <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EverydayTemp">
+  <component name="RunManager" selected="应用程序.全排列2号">
     <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.全排列" />
+      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -203,8 +167,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BalancedTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.BalancedTree" />
+    <configuration name="全排列2号" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯.全排列2号" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InOrderTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.InOrderTraverse" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -216,21 +193,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EverydayTemp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack.EverydayTemp" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FullTwoTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.FullTwoTree" />
+    <configuration name="PreOrderTraverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.PreOrderTraverse" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -242,8 +206,94 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeNode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.TreeNode" />
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯算法.全排列" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉树节点和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.二叉树节点和" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="回溯算法.全排列" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
+      <module name="leecode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
+      <module name="leecode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉树中序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.二叉树中序遍历" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
+      <module name="leecode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="前中序遍历还原二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.前中序遍历还原二叉树" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tree.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="有序数组转为二叉搜索树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="tree.有序数组转为二叉搜索树" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -261,6 +311,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="回溯算法.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="二叉树节点和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.二叉树节点和" />
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -294,53 +357,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯算法.全排列" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯算法.全排列" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
-      <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
-      <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
-      <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -353,19 +369,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FullTwoTree" />
-      <item itemvalue="Application.TreeNode" />
-      <item itemvalue="Application.全排列" />
-      <item itemvalue="Application.BalancedTree" />
-      <item itemvalue="Application.EverydayTemp" />
+      <item itemvalue="应用程序.全排列2号" />
+      <item itemvalue="应用程序.InOrderTraverse" />
+      <item itemvalue="应用程序.PreOrderTraverse" />
+      <item itemvalue="应用程序.全排列" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.EverydayTemp" />
-        <item itemvalue="Application.BalancedTree" />
-        <item itemvalue="Application.全排列" />
-        <item itemvalue="Application.TreeNode" />
-        <item itemvalue="Application.FullTwoTree" />
+        <item itemvalue="应用程序.全排列" />
+        <item itemvalue="应用程序.PreOrderTraverse" />
+        <item itemvalue="应用程序.InOrderTraverse" />
+        <item itemvalue="应用程序.全排列2号" />
       </list>
     </recent_temporary>
   </component>
@@ -603,7 +617,26 @@
       <workItem from="1600591162162" duration="2152000" />
       <workItem from="1600593355034" duration="11094000" />
       <workItem from="1600678274967" duration="401000" />
-      <workItem from="1600685959725" duration="6910000" />
+      <workItem from="1600685959725" duration="7422000" />
+      <workItem from="1600786147603" duration="177000" />
+      <workItem from="1600786344633" duration="7925000" />
+      <workItem from="1600826601852" duration="5410000" />
+      <workItem from="1600871820810" duration="13023000" />
+      <workItem from="1601035880212" duration="9192000" />
+      <workItem from="1601166933776" duration="27000" />
+      <workItem from="1601204347695" duration="730000" />
+      <workItem from="1601205284884" duration="9527000" />
+      <workItem from="1601253326644" duration="12000" />
+      <workItem from="1601261547067" duration="1191000" />
+      <workItem from="1601293671757" duration="10962000" />
+      <workItem from="1601346817749" duration="873000" />
+      <workItem from="1601377957011" duration="9433000" />
+      <workItem from="1601425933466" duration="103000" />
+      <workItem from="1601482128384" duration="10020000" />
+      <workItem from="1601542370242" duration="1184000" />
+      <workItem from="1601543711912" duration="1839000" />
+      <workItem from="1601563867793" duration="5617000" />
+      <workItem from="1601602268003" duration="6010000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -647,7 +680,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579402325820</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="算法代码提交">
+      <created>1600703086191</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600703086191</updated>
+    </task>
+    <task id="LOCAL-00008" summary="算法代码提交">
+      <created>1600703139122</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600703139122</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -673,186 +720,9 @@
     <MESSAGE value="代码提交" />
     <MESSAGE value="三数之和代码提交" />
     <MESSAGE value="默认更改列表" />
-    <option name="LAST_COMMIT_MESSAGE" value="默认更改列表" />
+    <MESSAGE value="算法代码提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法代码提交" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="651" y="279" key="#Notifications" timestamp="1600178884491">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="651" y="279" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1600178884491" />
-    <state x="361" y="58" key="#Plugins" timestamp="1593743898193">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="58" key="#Plugins/0.0.1536.834@0.0.1536.834" timestamp="1593743898193" />
-    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1599494218899">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="499" y="172" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.834@0.0.1536.834" timestamp="1599494218899" />
-    <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599275060188">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="2334" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599275060188" />
-    <state x="2566" y="149" key="#com.intellij.ide.util.MemberChooser" timestamp="1600231964980">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="2566" y="149" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600231964980" />
-    <state x="517" y="118" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1599965485021" />
-    <state x="2544" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599275113101">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="2544" y="205" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1599275113101" />
-    <state x="499" y="163" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.834@0.0.1536.834" timestamp="1596723468387" />
-    <state x="499" y="163" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1599232111150">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="499" y="163" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.834@0.0.1536.834" timestamp="1599232111150" />
-    <state x="511" y="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1599194572865">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="511" y="258" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.834@0.0.1536.834" timestamp="1599194572865" />
-    <state width="570" height="466" key="DebuggerActiveHint" timestamp="1600509875199">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="589" height="587" key="DebuggerActiveHint/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600142084802" />
-    <state width="570" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1600509875199" />
-    <state x="469" y="94" width="436" height="486" key="FileChooserDialogImpl" timestamp="1600527403415">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="469" y="94" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1599020419404" />
-    <state x="2506" y="118" key="FileChooserDialogImpl/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1598693296140" />
-    <state x="469" y="94" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1600527403415" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom" timestamp="1600591136581">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.802@0.0.1536.802" timestamp="1598874139886" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.832/1920.0.1920.1050@0.0.1536.832" timestamp="1598594995621" />
-    <state width="1493" height="205" key="GridCell.Tab.0.bottom/0.0.1536.832@0.0.1536.832" timestamp="1598590287262" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="274" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600591136581" />
-    <state width="1493" height="184" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600509836205" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center" timestamp="1600591136581">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.802@0.0.1536.802" timestamp="1598874139886" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.832/1920.0.1920.1050@0.0.1536.832" timestamp="1598594995621" />
-    <state width="1493" height="205" key="GridCell.Tab.0.center/0.0.1536.832@0.0.1536.832" timestamp="1598590287262" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070227" />
-    <state width="1877" height="274" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600591136581" />
-    <state width="1493" height="184" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1600509836205" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left" timestamp="1600591136581">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.802@0.0.1536.802" timestamp="1598874139886" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.832/1920.0.1920.1050@0.0.1536.832" timestamp="1598594995621" />
-    <state width="1493" height="205" key="GridCell.Tab.0.left/0.0.1536.832@0.0.1536.832" timestamp="1598590287262" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070227" />
-    <state width="1877" height="274" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600591136581" />
-    <state width="1493" height="184" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1600509836205" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right" timestamp="1600591136581">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.802@0.0.1536.802" timestamp="1598874139886" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.832/1920.0.1920.1050@0.0.1536.832" timestamp="1598594995621" />
-    <state width="1493" height="205" key="GridCell.Tab.0.right/0.0.1536.832@0.0.1536.832" timestamp="1598590287262" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="274" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600591136581" />
-    <state width="1493" height="184" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1600509836205" />
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom" timestamp="1600563070228">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.1.bottom/0.0.1536.802@0.0.1536.802" timestamp="1598872597018" />
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="249" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600149943971" />
-    <state width="1493" height="184" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1600509836574" />
-    <state width="1493" height="184" key="GridCell.Tab.1.center" timestamp="1600563070228">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.1.center/0.0.1536.802@0.0.1536.802" timestamp="1598872597018" />
-    <state width="1493" height="184" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="249" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600149943971" />
-    <state width="1493" height="184" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1600509836574" />
-    <state width="1493" height="184" key="GridCell.Tab.1.left" timestamp="1600563070228">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.1.left/0.0.1536.802@0.0.1536.802" timestamp="1598872597017" />
-    <state width="1493" height="184" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="249" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600149943971" />
-    <state width="1493" height="184" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1600509836574" />
-    <state width="1493" height="184" key="GridCell.Tab.1.right" timestamp="1600563070228">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="243" key="GridCell.Tab.1.right/0.0.1536.802@0.0.1536.802" timestamp="1598872597018" />
-    <state width="1493" height="184" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600563070228" />
-    <state width="1877" height="249" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600149943971" />
-    <state width="1493" height="184" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1600509836574" />
-    <state x="349" y="160" width="838" height="530" key="IDE.errors.dialog" timestamp="1599225166847">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="349" y="160" width="838" height="530" key="IDE.errors.dialog/0.0.1536.834@0.0.1536.834" timestamp="1599225166847" />
-    <state x="2244" y="0" width="914" height="707" key="SettingsEditor" timestamp="1600593367088">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="259" y="0" width="914" height="707" key="SettingsEditor/0.0.1536.802@0.0.1536.802" timestamp="1598874225121" />
-    <state x="259" y="0" key="SettingsEditor/0.0.1536.832@0.0.1536.832" timestamp="1598591147764" />
-    <state x="2244" y="0" key="SettingsEditor/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600593367088" />
-    <state x="259" y="0" width="1134" height="711" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1600358728239" />
-    <state x="490" y="159" width="558" height="524" key="StructurePopup" timestamp="1600678562956">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="490" y="159" width="558" height="524" key="StructurePopup/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600678562956" />
-    <state x="490" y="159" width="543" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1599577927978" />
-    <state width="498" height="540" key="SwitcherDM" timestamp="1600670792699">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="498" height="540" key="SwitcherDM/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600670792699" />
-    <state width="498" height="508" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1599226370393" />
-    <state x="527" y="261" key="cloudConfig.PluginsDialog" timestamp="1599378427164">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="527" y="251" key="cloudConfig.PluginsDialog/0.0.1536.802@0.0.1536.802" timestamp="1598873224187" />
-    <state x="527" y="261" key="cloudConfig.PluginsDialog/0.0.1536.834@0.0.1536.834" timestamp="1599378427164" />
-    <state x="631" y="261" key="cloudConfig.SelfSettingsDialog" timestamp="1599378420519">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="631" y="261" key="cloudConfig.SelfSettingsDialog/0.0.1536.834@0.0.1536.834" timestamp="1599378420519" />
-    <state x="258" y="153" width="1019" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1598976043510">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="258" y="153" width="1019" height="641" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.834@0.0.1536.834" timestamp="1598976043510" />
-    <state x="0" y="0" width="1255" height="791" key="dock-window-1" timestamp="1598589946855">
-      <screen x="0" y="0" width="1536" height="832" />
-    </state>
-    <state x="0" y="0" width="1255" height="791" key="dock-window-1/0.0.1536.832@0.0.1536.832" timestamp="1598589946855" />
-    <state width="511" height="182" key="documentation.popup.size" timestamp="1600678566184">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="511" height="182" key="documentation.popup.size/0.0.1536.834/1920.0.1920.1050@0.0.1536.834" timestamp="1600678566184" />
-    <state width="642" height="232" key="documentation.popup.size/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600594998403" />
-    <state width="513" height="184" key="documentation.popup.size/0.0.1536.834@0.0.1536.834" timestamp="1600095977735" />
-    <state x="468" y="149" width="901" height="536" key="find.popup" timestamp="1599750644703">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="468" y="149" width="901" height="536" key="find.popup/0.0.1536.834@0.0.1536.834" timestamp="1599750644703" />
-    <state width="511" height="182" key="javadoc.popup.new" timestamp="1599665418383">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="511" height="182" key="javadoc.popup.new/0.0.1536.834@0.0.1536.834" timestamp="1599665418383" />
-    <state x="470" y="173" key="refactoring.ChangeSignatureDialog" timestamp="1599232113151">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="470" y="173" key="refactoring.ChangeSignatureDialog/0.0.1536.834@0.0.1536.834" timestamp="1599232113151" />
-    <state x="425" y="182" key="run.anything.popup" timestamp="1598873975173">
-      <screen x="0" y="0" width="1536" height="802" />
-    </state>
-    <state x="425" y="182" key="run.anything.popup/0.0.1536.802@0.0.1536.802" timestamp="1598873975173" />
-    <state x="425" y="189" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1593876233706" />
-    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup" timestamp="1600343092567">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="425" y="71" width="672" height="675" key="search.everywhere.popup/0.0.1536.832@0.0.1536.832" timestamp="1598591296157" />
-    <state x="2451" y="89" width="840" height="852" key="search.everywhere.popup/0.0.1536.834/1920.0.1920.1050@1920.0.1920.1050" timestamp="1600141863871" />
-    <state x="425" y="71" width="672" height="676" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1600343092567" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -927,9 +797,13 @@
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/dfs/全排列.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="66" />
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[236]二叉树的最近公共祖先.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[124]二叉树中的最大路径和.java</url>
+          <option name="timeStamp" value="68" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NegativeArraySizeException" package="java.lang" />

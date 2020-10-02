@@ -68,8 +68,8 @@ public class BalancedTree {
     }
 
     public static void main(String[] args) {
-        Tree tree = new Tree(new int[]{0, 2, 4, 5, 6, 1});
-        System.out.println(new BalancedTree().computeHeight(tree.root));
+//        Tree tree = new Tree(new int[]{0, 2, 4, 5, 6, 1});
+//        System.out.println(new BalancedTree().computeHeight(tree.root));
     }
 
 }
