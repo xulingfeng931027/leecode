@@ -35,15 +35,15 @@ public class 子集 {
             return;
         }
 
-        process(new ArrayList<>(), 0);
+        backTrack(new ArrayList<>(), 0);
     }
 
-    private void process(List<Integer> list, int index) {
+    private void backTrack(List<Integer> list, int index) {
         result.add(new ArrayList<>(list));
         for (int i = index; i < nums.length; i++) {
             list.add(nums[i]);
             //选择第index个元素
-            process(list, i + 1);
+            backTrack(list, i + 1);
             list.remove(list.size() - 1);
         }
 
@@ -51,9 +51,13 @@ public class 子集 {
 
     @Test
     public void test() {
-        int[] nums = new int[18];
-        subsets(nums);
-        System.out.println(result);
-        System.out.println(result.size());
+//        subsets(new int[]{1, 2, 3});
+//        System.out.println(result);
+//        System.out.println(result.size());
+        String s = "0123";
+        int a = 'z' - 97;
+        int i = a;
+        System.out.println(a);
+//        System.out.println(i);
     }
 }

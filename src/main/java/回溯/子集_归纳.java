@@ -31,8 +31,7 @@ public class 子集_归纳 {
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         if (nums.length == 0) {
-            List<Integer> list = new ArrayList<>();
-            result.add(list);
+            result.add(new ArrayList<>());
             return result;
         }
         //先把最后一个数拿出来

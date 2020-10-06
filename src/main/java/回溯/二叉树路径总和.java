@@ -33,7 +33,7 @@ import tree.TreeNode;
  * TreeNode(int x) { val = x; }
  * }
  */
-public class 路径总和 {
+public class 二叉树路径总和 {
     public boolean hasPathSum(TreeNode root, int sum) {
         return backTrack(root, 0, sum);
     }
@@ -57,7 +57,7 @@ public class 路径总和 {
     }
 
     public static void main(String[] args) {
-        路径总和 test = new 路径总和();
+        二叉树路径总和 test = new 二叉树路径总和();
     }
 }
 

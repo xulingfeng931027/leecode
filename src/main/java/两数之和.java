@@ -47,27 +47,25 @@ public class 两数之和 {
 
     private int[] getInts1(int[] nums, int target) {
         Map<Integer, Integer> map = new HashMap<>();
-        int[] reslut = new int[2];
         for (int i = 0; i < nums.length; i++) {
             map.put(nums[i], i);
         }
+        int[] result = new int[2];
         for (int i = 0; i < nums.length; i++) {
-            int left = nums[i];
-            int right = target - left;
-            Integer index = map.get(right);
-            if (index != null && index != i) {
-                reslut[0] = i;
-                reslut[1] = index;
-                return reslut;
+            Integer second = map.get(target - nums[i]);
+            if (second != null) {
+                result[0] = i;
+                result[1] = second;
+                break;
             }
         }
-        return reslut;
+        return result;
     }
 
 
     @Test
     public void test() {
-        int[] arr = {3, 2, 4, 15};
+        int[] arr = {3, 2, 4};
         System.out.println(Arrays.toString(twoSum(arr, 6)));
     }
 }

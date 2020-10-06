@@ -54,7 +54,7 @@ public class 二叉树节点和 {
 
     public static void main(String[] args) {
         二叉树节点和 solution = new 二叉树节点和();
-        TreeNode root = TreeUtil.generateTree(new int[]{0, 1, 2, 3, 5});
+        TreeNode root = TreeUtil.generateTree(new Integer[]{0, 1, 2, 3, 5});
         System.out.println(solution.sumNumbers(root));
     }
 

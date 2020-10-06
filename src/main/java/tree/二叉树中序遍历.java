@@ -49,7 +49,7 @@ public class 二叉树中序遍历 {
 
     public static void main(String[] args) {
         二叉树中序遍历 test = new 二叉树中序遍历();
-        System.out.println(test.inorderTraversal(TreeUtil.generateTree(new int[]{0, 1, 2, 3, 4, 5, 6})));
+        System.out.println(test.inorderTraversal(TreeUtil.generateTree(new Integer[]{0, 1, 2, 3, 4, 5, 6})));
     }
 }
 

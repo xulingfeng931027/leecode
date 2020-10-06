@@ -23,6 +23,7 @@ package 回溯;//给定不同面额的硬币 coins 和一个总金额 amount。�
 
 
 import java.util.LinkedList;
+import java.util.List;
 
 //leetcode submit region begin(Prohibit modification and deletion)
 class 零钱兑换 {
@@ -30,6 +31,7 @@ class 零钱兑换 {
 
     int res = Integer.MAX_VALUE;
     int[] coins;
+
     //回溯算法 dfs
     public int coinChange(int[] coins, int amount) {
         if (amount == 0) {
@@ -39,28 +41,27 @@ class 零钱兑换 {
             return -1;
         }
         this.coins = coins;
-        backTrace(new LinkedList<>(), amount);
+        backTrace(new LinkedList<>(), 0, amount);
         return res;
     }
 
-    public void backTrace(LinkedList<Integer> temp, int amount) {
-        int sum = temp.stream().mapToInt(e -> e).sum();
+    public void backTrace(List<Integer> temp, int start, int amount) {
         //结束条件
-        if (sum == amount) {
+        if (0 == amount) {
             res = Math.min(res, temp.size());
             return;
         }
-        for (Integer coin : coins) {
+        for (int i = start; i < coins.length; i++) {
             //排除不合法选择
-            if (sum + coin > amount) {
+            if (amount - coins[i] < 0) {
                 continue;
             }
             //做选择
-            temp.add(coin);
+            temp.add(coins[i]);
             //递归
-            backTrace(temp, amount);
+            backTrace(temp, i, amount - coins[i]);
             //撤销选择
-            temp.removeLast();
+            temp.remove(temp.size() - 1);
         }
         if (res == Integer.MAX_VALUE) {
             res = -1;
@@ -68,7 +69,7 @@ class 零钱兑换 {
     }
 
     public static void main(String[] args) {
-        int[] coins = {1, 2, 3, 4, 5};
+        int[] coins = {1, 2, 3, 4, 5, 6};
         int amount = 11;
         System.out.println(new 零钱兑换().coinChange(coins, amount));
     }

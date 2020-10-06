@@ -92,6 +92,7 @@ public class 三数之和 {
                 int right = nums[rIndex];
                 if (left + right == target && i != lIndex && i != rIndex) {
                     addListToResult(result, nums[i], left, right);
+
                     while (lIndex < rIndex && nums[lIndex] == nums[lIndex + 1]) {
                         //去重
                         lIndex++;

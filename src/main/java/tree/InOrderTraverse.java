@@ -14,7 +14,7 @@ import java.util.Stack;
 public class InOrderTraverse {
     public static void main(String[] args) {
         InOrderTraverse parent = new InOrderTraverse();
-        System.out.println(parent.preorderTraversal(TreeUtil.generateTree(new int[]{0, 1, 2, 3, 4, 5, 6})));
+        System.out.println(parent.preorderTraversal(TreeUtil.generateTree(new Integer[]{0, 1, 2, 3, 4, 5, 6})));
     }
 
     public List<Integer> preorderTraversal(TreeNode root) {

@@ -32,6 +32,6 @@ public class PreOrderTraverse {
 
     public static void main(String[] args) {
         PreOrderTraverse parent = new PreOrderTraverse();
-        System.out.println(parent.preorderTraversal(TreeUtil.generateTree(new int[]{0, 1, 2, 3, 4, 5, 6})));
+        System.out.println(parent.preorderTraversal(TreeUtil.generateTree(new Integer[]{0, 1, 2, 3, 4, 5, 6})));
     }
 }
