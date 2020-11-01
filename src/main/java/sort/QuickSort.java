@@ -23,21 +23,23 @@ public class QuickSort {
     private static int partition(int[] arr, int left, int right) {
         //分区点的值
         int partitionValue = arr[right];
-        int i = left;
+        int partitionIndex = left;
         //找到分区点索引,并将大于分区点的值右移
-        for (int j = left; j < right; j++) {
-            if (arr[j] < partitionValue) {
-                int temp = arr[i];
-                arr[i] = arr[j];
-                arr[j] = temp;
-                i++;
+        for (int i = left; i < right; i++) {
+            if (arr[i] < partitionValue) {
+                if (i != partitionIndex) {
+                    int temp = arr[partitionIndex];
+                    arr[partitionIndex] = arr[i];
+                    arr[i] = temp;
+                }
+                partitionIndex++;
             }
         }
         //分区点的值跟索引所在值交换
-        arr[right] = arr[i];
-        arr[i] = partitionValue;
+        arr[right] = arr[partitionIndex];
+        arr[partitionIndex] = partitionValue;
         //        System.out.println(Arrays.toString(arr));
-        return i;
+        return partitionIndex;
     }
 
 
@@ -57,8 +59,9 @@ public class QuickSort {
         quickSort0(arr, q + 1, right);
     }
 
-    @Test public void quickSortTest() {
-        int[] arr = { 4, 2,1, 5, 3 };
+    @Test
+    public void quickSortTest() {
+        int[] arr = {4, 2, 1, 11, 9, 5, 3, 7};
         quickSort(arr, arr.length);
         System.out.println(Arrays.toString(arr));
     }

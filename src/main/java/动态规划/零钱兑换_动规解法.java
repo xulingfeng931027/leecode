@@ -25,7 +25,7 @@ package 动态规划;//给定不同面额的硬币 coins 和一个总金额 amou
 import java.util.Arrays;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class 零钱兑换_备忘录递归2 {
+class 零钱兑换_动规解法 {
 
 
     int[] coins;
@@ -53,7 +53,7 @@ class 零钱兑换_备忘录递归2 {
     public static void main(String[] args) {
         int[] coins = {1, 4, 2};
         int amount = 10;
-        System.out.println(new 零钱兑换_备忘录递归2().coinChange(coins, amount));
+        System.out.println(new 零钱兑换_动规解法().coinChange(coins, amount));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

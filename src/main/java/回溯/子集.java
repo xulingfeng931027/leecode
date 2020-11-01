@@ -40,7 +40,11 @@ public class 子集 {
 
     private void backTrack(List<Integer> list, int index) {
         result.add(new ArrayList<>(list));
+        System.out.println(list);
         for (int i = index; i < nums.length; i++) {
+            if (i > index && nums[i] == nums[i - 1]) {
+                continue;
+            }
             list.add(nums[i]);
             //选择第index个元素
             backTrack(list, i + 1);
@@ -51,13 +55,14 @@ public class 子集 {
 
     @Test
     public void test() {
-//        subsets(new int[]{1, 2, 3});
+        subsets(new int[]{1, 2, 3});
 //        System.out.println(result);
 //        System.out.println(result.size());
-        String s = "0123";
-        int a = 'z' - 97;
-        int i = a;
-        System.out.println(a);
-//        System.out.println(i);
+//        List<Integer> list = Lists.newArrayList(1, 1,2, 2, 3);
+//        List<Integer> list2 = Lists.newArrayList(1,2);
+//        list.removeAll(list2);
+//        System.out.println(list);
+
+
     }
 }

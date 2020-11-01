@@ -12,14 +12,47 @@ import java.io.IOException;
  */
 public class ReverseLinked {
 
-    @Test public void test() throws InterruptedException, IOException {
+    /**
+     * 翻转链表前n个节点 索引从1开始
+     *
+     * @return 翻转后的头结点
+     */
+    private ListNode processor;
+
+    @Test
+    public void test() throws InterruptedException, IOException {
         ListNode node6 = new ListNode(6, null);
         ListNode node5 = new ListNode(5, node6);
         ListNode node4 = new ListNode(4, node5);
-        //        ListNode node3 = new ListNode(3, node4);
-        new Thread(() -> System.out.println(reverse(node5))).start();
-        new Thread(() -> System.out.println(reverse(node5))).start();
-        System.in.read();
+        ListNode node3 = new ListNode(3, node4);
+        ListNode node2 = new ListNode(2, node3);
+//        new Thread(() -> System.out.println(reverse(node5))).start();
+//        new Thread(() -> System.out.println(reverse(node5))).start();
+        System.out.println(reverseMN(node2,2, 3));
+    }
+
+    public ListNode reverseN(ListNode head, int n) {
+        if (n == 1) {
+            processor = head.next;
+            return head;
+        }
+        ListNode last = reverseN(head.next, n - 1);
+        head.next.next = head;
+        head.next = processor;
+        return last;
+    }
+
+    /**
+     * 翻转链表前m-n个节点 索引从1开始
+     *
+     * @return 翻转后的头结点
+     */
+    public ListNode reverseMN(ListNode head, int m, int n) {
+        if (m == 1) {
+            return reverseN(head, n);
+        }
+        head.next = reverseMN(head.next, m - 1, n - 1);
+        return head;
     }
 
     //空间o(1) 时间o(n)
@@ -40,6 +73,18 @@ public class ReverseLinked {
             head = next;
         }
         return newNode;
+    }
+
+    public ListNode reverse2(ListNode head) {
+        if (head.next == null) {
+            return head;
+        }
+        ListNode last = reverse2(head.next);
+        head.next.next = head;
+        head.next = null;
+        return last;
+
+
     }
 
     /**

@@ -1,9 +1,7 @@
 package linked;
 
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * 判断环形链表方法
@@ -12,28 +10,6 @@ import java.util.Set;
  * @date 2019/9/30
  */
 public class CycleLinkedList {
-
-    /**
-     * 遍历法,出现重复的说明有环啦
-     * 需要遍历,时间复杂度O(n),空间复杂O(n)
-     */
-    public boolean hasCycle(ListNode head) {
-        if (head == null)
-            return false;
-        // 用set的去重可以节省空间
-        Set<ListNode> set = new HashSet<>();
-        set.add(head);
-        while (head.next != null) {
-            ListNode next = head.next;
-            if (set.contains(next)) {
-                return true;
-            } else {
-                set.add(next);
-            }
-            head = next;
-        }
-        return false;
-    }
 
     /**
      * 快慢指针法
@@ -53,22 +29,33 @@ public class CycleLinkedList {
         return true;
     }
 
-    /**
-     * 输出环形链表中环链接的第一个节点 若不存在返回null
-     */
-    public ListNode detectCycle(ListNode head) {
-        if (head == null)
-            return null;
-        // 用set的去重可以节省空间
-        Set<ListNode> set = new HashSet<>();
-        while (head != null) {
-            if (set.contains(head)) {
-                return head;
+    public static void main(String[] args) {
+        ListNode l1 = new ListNode(1);
+        ListNode l2 = new ListNode(2);
+        ListNode l3 = new ListNode(3);
+        l1.next = l2;
+        l2.next = l3;
+        l3.next = l2;
+        CycleLinkedList cycleLinkedList = new CycleLinkedList();
+        cycleLinkedList.detectCycle2(l1);
+    }
+
+    public ListNode detectCycle2(ListNode head) {
+        ListNode slow = head;
+        ListNode fast = head;
+        do {
+            if (fast == null || fast.next == null) {
+                return null;
             }
-            set.add(head);
-            head = head.next;
+            slow = slow.next;
+            fast = fast.next.next;
+        } while (slow != fast);
+        fast = head;
+        while (fast != slow) {
+            fast = fast.next;
+            slow = slow.next;
         }
-        return null;
+        return slow;
     }
 
     /**
