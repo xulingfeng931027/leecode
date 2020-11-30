@@ -1,5 +1,7 @@
 package sort;
 
+import org.junit.Test;
+
 /**
  * 堆排序实现
  *
@@ -9,7 +11,7 @@ package sort;
  */
 public class HeapSort {
     private static void buildHeap(int[] nums, int count) {
-        for (int i = count / 2; i >= 1; i--) {
+        for (int i = count/2 ; i >= 1; i--) {
             shiftDown(nums, count, i);
         }
     }
@@ -17,16 +19,19 @@ public class HeapSort {
     public static void sort(int[] nums) {
         int n = nums.length - 1;
         buildHeap(nums, n);
-        int k = n;
-        while (k > 1) {
-            int temp = nums[k];
-            nums[k] = nums[1];
+        while (n > 1) {
+            int temp = nums[n];
+            nums[n] = nums[1];
             nums[1] = temp;
-            k--;
-            shiftDown(nums, k, 1);
+            n--;
+            shiftDown(nums, n, 1);
         }
     }
 
+    @Test
+    public void test() {
+        sort(new int[]{5, 1, 3, 4, 2});
+    }
 
     /**
      * 下方堆化

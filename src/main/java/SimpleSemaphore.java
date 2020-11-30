@@ -119,6 +119,7 @@ public class SimpleSemaphore {
             }
         }
 
+        @Override
         protected final boolean tryReleaseShared(int lockNum) {
             for (; ; ) {
                 int current = getState();

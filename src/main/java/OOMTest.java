@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 /**
  * todo 描述作用
  *
@@ -8,15 +5,28 @@ import java.util.List;
  * @date 2019/10/28
  */
 public class OOMTest {
-    //-Xms20m -Xmx20M -XX:+HeapDumpOnOutOfMemoryError
-    static List<String> list = new ArrayList<>();
+
+    public void test(Human human) {
+        System.out.println("human");
+    }
+
+    public void test(Man man) {
+        System.out.println("man");
+    }
 
     public static void main(String[] args) {
-
-        for (; ; ) {
-            list.add("aaaa");
-        }
+        OOMTest oomTest = new OOMTest();
+        Human human = new Man();
+        oomTest.test(human);
     }
+
+}
+
+class Human {
+
+}
+
+class Man extends Human {
 
 }
 

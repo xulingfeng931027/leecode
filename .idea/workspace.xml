@@ -23,36 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/岛屿问题/岛屿周长.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/归并.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/dd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/tree/求节点和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/双指针/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/回溯/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/回溯/找出所有回文串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/最长回文子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/异位词.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/最长子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bfs/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked/删除链表指定节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/区间和个数.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/双指针/有序数组去重.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked/CycleLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked/CycleLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked/ReverseLinked.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked/ReverseLinked.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOMTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleSemaphore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_备忘录递归2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_动规解法.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/N皇后.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/N皇后.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/子集.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/子集.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linked/CycleLinkedList$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linked/CycleLinkedList$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linked/CycleLinkedList.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linked/CycleLinkedList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linked/ReverseLinked$ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linked/ReverseLinked$ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/linked/ReverseLinked.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/linked/ReverseLinked.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/MergeSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/leecode.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/OOMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OOMTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SimpleSemaphore$SimpleSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimpleSemaphore$SimpleSync.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/两数之和.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/两数之和.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/动态规划/零钱兑换_备忘录递归2.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +89,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="更新" />
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
@@ -121,7 +110,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/dfs/岛屿问题" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -134,7 +123,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -148,40 +137,7 @@
       <recent name="proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.子集">
-    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯算法.零钱兑换" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.MergeSort" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="零钱兑换" />
-      <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.QuickSort.quickSortTest">
     <configuration name="前中序遍历还原二叉树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.前中序遍历还原二叉树" />
       <module name="leecode" />
@@ -195,25 +151,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OOMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OOMTest" />
+      <module name="leecode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="有序数组转为二叉搜索树" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="tree.有序数组转为二叉搜索树" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="电话号码的字母组合" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯算法.电话号码的字母组合" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯算法.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,19 +186,6 @@
     </configuration>
     <configuration name="四数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="回溯.四数之和" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="三数之和" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯.三数之和" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -286,19 +223,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="回溯算法.全排列" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯算法.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="零钱兑换" />
       <module name="leecode" />
@@ -309,19 +233,6 @@
     <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="零钱兑换" />
       <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="二叉树中序遍历" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tree.二叉树中序遍历" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,16 +250,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="子集" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="有序数组去重" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="回溯.*" />
+          <option name="PATTERN" value="双指针.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="回溯" />
-      <option name="MAIN_CLASS_NAME" value="回溯.子集" />
+      <option name="PACKAGE_NAME" value="双指针" />
+      <option name="MAIN_CLASS_NAME" value="双指针.有序数组去重" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HeapSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.HeapSort" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -365,6 +306,22 @@
       <option name="PACKAGE_NAME" value="sort" />
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="METHOD_NAME" value="quickSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bfs" />
+      <option name="MAIN_CLASS_NAME" value="bfs.Solution" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -418,45 +375,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="岛屿周长.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <option name="PACKAGE_NAME" value="dfs.岛屿问题" />
-      <option name="MAIN_CLASS_NAME" value="dfs.岛屿问题.岛屿周长" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="子集.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="回溯" />
-      <option name="MAIN_CLASS_NAME" value="回溯.子集" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="JUnit.有序数组去重" />
+      <item itemvalue="JUnit.Solution.test" />
+      <item itemvalue="JUnit.HeapSort" />
+      <item itemvalue="JUnit.QuickSort" />
       <item itemvalue="JUnit.QuickSort.quickSortTest" />
-      <item itemvalue="JUnit.岛屿周长.test" />
-      <item itemvalue="JUnit.子集" />
-      <item itemvalue="应用程序.零钱兑换" />
-      <item itemvalue="应用程序.MergeSort" />
+      <item itemvalue="应用程序.前中序遍历还原二叉树" />
+      <item itemvalue="应用程序.OOMTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.子集" />
-        <item itemvalue="JUnit.岛屿周长.test" />
         <item itemvalue="JUnit.QuickSort.quickSortTest" />
-        <item itemvalue="应用程序.MergeSort" />
+        <item itemvalue="应用程序.OOMTest" />
+        <item itemvalue="JUnit.QuickSort" />
+        <item itemvalue="JUnit.HeapSort" />
+        <item itemvalue="JUnit.Solution.test" />
       </list>
     </recent_temporary>
   </component>
@@ -791,6 +725,31 @@
       <workItem from="1604117608988" duration="1681000" />
       <workItem from="1604142281605" duration="1001000" />
       <workItem from="1604211164860" duration="11507000" />
+      <workItem from="1604237824207" duration="776000" />
+      <workItem from="1604277985261" duration="123000" />
+      <workItem from="1604315351332" duration="8368000" />
+      <workItem from="1604330469236" duration="593000" />
+      <workItem from="1604383688420" duration="1000" />
+      <workItem from="1604383704740" duration="388000" />
+      <workItem from="1604384135633" duration="4724000" />
+      <workItem from="1604449992903" duration="285000" />
+      <workItem from="1604463769574" duration="1007000" />
+      <workItem from="1604552473137" duration="3188000" />
+      <workItem from="1604567007768" duration="2404000" />
+      <workItem from="1604722801877" duration="2806000" />
+      <workItem from="1604746265436" duration="5880000" />
+      <workItem from="1604795369716" duration="731000" />
+      <workItem from="1604804689040" duration="2906000" />
+      <workItem from="1604818927703" duration="1271000" />
+      <workItem from="1604922191126" duration="2153000" />
+      <workItem from="1604968501112" duration="184000" />
+      <workItem from="1605007351386" duration="3015000" />
+      <workItem from="1605276357670" duration="1920000" />
+      <workItem from="1606139485660" duration="1388000" />
+      <workItem from="1606191456080" duration="1897000" />
+      <workItem from="1606304662985" duration="1978000" />
+      <workItem from="1606642405968" duration="7217000" />
+      <workItem from="1606710424731" duration="965000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -862,7 +821,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601998659797</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="算法代码提交">
+      <created>1604237942542</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604237942542</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -891,109 +857,6 @@
     <MESSAGE value="算法代码提交" />
     <option name="LAST_COMMIT_MESSAGE" value="算法代码提交" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="264" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1603903013550">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="264" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.834@0.0.1536.834" timestamp="1603903013550" />
-    <state x="361" y="58" key="#插件" timestamp="1603884069568">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="361" y="58" key="#插件/0.0.1536.834@0.0.1536.834" timestamp="1603884069568" />
-    <state width="426" height="466" key="DebuggerActiveHint" timestamp="1604033042930">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="426" height="466" key="DebuggerActiveHint/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604033042930" />
-    <state width="542" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1603985324624" />
-    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1604229548798">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604229548798" />
-    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1603265054992" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1604236381147">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761820" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236381147" />
-    <state width="746" height="213" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603985364318" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1604236381144">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761818" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236381144" />
-    <state width="746" height="213" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1603985364318" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1604236381142">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761817" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236381142" />
-    <state width="746" height="213" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1603985364318" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1604236381145">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761819" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236381145" />
-    <state width="746" height="213" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1603985364318" />
-    <state width="1493" height="222" key="GridCell.Tab.1.bottom" timestamp="1604236348854">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="222" key="GridCell.Tab.1.bottom/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761787" />
-    <state width="1493" height="222" key="GridCell.Tab.1.bottom/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236348854" />
-    <state width="746" height="222" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1603985364304" />
-    <state width="1493" height="222" key="GridCell.Tab.1.center" timestamp="1604236348854">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="222" key="GridCell.Tab.1.center/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761785" />
-    <state width="1493" height="222" key="GridCell.Tab.1.center/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236348854" />
-    <state width="746" height="222" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1603985364304" />
-    <state width="1493" height="222" key="GridCell.Tab.1.left" timestamp="1604236348854">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="222" key="GridCell.Tab.1.left/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761785" />
-    <state width="1493" height="222" key="GridCell.Tab.1.left/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236348854" />
-    <state width="746" height="222" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1603985364304" />
-    <state width="1493" height="222" key="GridCell.Tab.1.right" timestamp="1604236348854">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="1493" height="222" key="GridCell.Tab.1.right/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604037761786" />
-    <state width="1493" height="222" key="GridCell.Tab.1.right/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604236348854" />
-    <state width="746" height="222" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1603985364304" />
-    <state x="562" y="119" key="RollbackChangesDialog" timestamp="1603886150504">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="562" y="119" key="RollbackChangesDialog/0.0.1536.834@0.0.1536.834" timestamp="1603886150504" />
-    <state x="270" y="62" key="SettingsEditor" timestamp="1603983364772">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="270" y="62" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1603983364772" />
-    <state x="491" y="160" width="540" height="524" key="StructurePopup" timestamp="1603885262782">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="491" y="160" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1603885262782" />
-    <state width="498" height="582" key="SwitcherDM" timestamp="1603984655998">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="498" height="582" key="SwitcherDM/0.0.1536.834@0.0.1536.834" timestamp="1603984655998" />
-    <state x="-7" y="-7" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1603631413855">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="-7" y="-7" width="1350" height="648" maximized="true" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.834@0.0.1536.834" timestamp="1603631413855" />
-    <state width="397" height="207" key="documentation.popup.size" timestamp="1604118572196">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="397" height="207" key="documentation.popup.size/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1603861756581" />
-    <state width="397" height="207" key="documentation.popup.size/0.0.1536.834/3840.0.2194.1204@0.0.1536.834" timestamp="1604118572196" />
-    <state width="397" height="207" key="documentation.popup.size/0.0.1536.834@0.0.1536.834" timestamp="1603984320828" />
-    <state width="395" height="205" key="javadoc.popup.new" timestamp="1603861756581">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state width="395" height="205" key="javadoc.popup.new/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1603861756581" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1604032916596">
-      <screen x="0" y="0" width="1536" height="834" />
-    </state>
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834/3840.0.2048.1122@0.0.1536.834" timestamp="1604032916596" />
-    <state x="431" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1603811169872" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1083,15 +946,6 @@
           <option name="timeStamp" value="109" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/sort/QuickSort.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="112" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[3]无重复字符的最长子串.java</url>
-          <option name="timeStamp" value="113" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/最长回文子串.java</url>
           <line>36</line>
           <option name="timeStamp" value="116" />
@@ -1105,6 +959,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/回溯/子集.java</url>
           <line>43</line>
           <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/双指针/有序数组去重.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bfs/Solution.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/sort/HeapSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="129" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NegativeArraySizeException" package="java.lang" />
@@ -1123,14 +992,17 @@
     </pin-to-top-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>滑动窗口.*</FILTER>
+    <SUITE FILE_PATH="coverage/leecode$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1601787264940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>回溯.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leecode$ReverseLinked_test.ic" NAME="ReverseLinked.test Coverage Results" MODIFIED="1569903904020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>linked.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1601787264940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>回溯.*</FILTER>
+    <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>滑动窗口.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/leecode$HeapSort.ic" NAME="HeapSort Coverage Results" MODIFIED="1604723596959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>sort.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leecode$SimpleIOCTest_getBean.ic" NAME="SimpleIOCTest.getBean Coverage Results" MODIFIED="1577540449940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>spring.*</FILTER>

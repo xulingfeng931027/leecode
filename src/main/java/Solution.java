@@ -38,8 +38,7 @@ import java.util.Map;
 //leetcode submit region begin(Prohibit modification and deletion)
 class Solution {
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.commonChars(new String[]{"bella", "label", "roller"}));
+//        System.out.println(solution.commonChars(new String[]{"bella", "label", "roller"}));
 
     }
 

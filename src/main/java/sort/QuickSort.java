@@ -12,38 +12,42 @@ import java.util.Arrays;
  */
 public class QuickSort {
 
-    /**
-     * 选取arr[right]为分区点,将小于它的放左边,大于的放右边
-     *
-     * @param arr   待排序数组
-     * @param left  左侧索引
-     * @param right 右侧索引
-     * @return 最终分区点索引位置
-     */
-    private static int partition(int[] arr, int left, int right) {
-        //分区点的值
-        int partitionValue = arr[right];
-        int partitionIndex = left;
-        //找到分区点索引,并将大于分区点的值右移
-        for (int i = left; i < right; i++) {
-            if (arr[i] < partitionValue) {
-                if (i != partitionIndex) {
-                    int temp = arr[partitionIndex];
-                    arr[partitionIndex] = arr[i];
-                    arr[i] = temp;
+    private int partition(int[] arr, int low, int high) {
+        // 左指针从第二个数开始
+        int i = low + 1;
+        int j = high;
+        int temp = arr[low];
+        while (true) {
+            // 找到左侧第一个不小于arr[low]的元素
+            while (arr[i] < temp) {
+                i++;
+                if (i == high) {
+                    break;
                 }
-                partitionIndex++;
             }
+            //  找到右侧第一个不大于arr[low]的元素
+            while (arr[j] > temp) {
+                //由于temp是low j不可能等于low
+                j--;
+            }
+            //当指针相遇了就终止
+            if (i >= j) {
+                break;
+            }
+            swap(arr, i, j);
         }
-        //分区点的值跟索引所在值交换
-        arr[right] = arr[partitionIndex];
-        arr[partitionIndex] = partitionValue;
-        //        System.out.println(Arrays.toString(arr));
-        return partitionIndex;
+        swap(arr, low, j);
+        return j; // 返回tmp的正确位置
     }
 
+    private void swap(int[] arr, int left, int right) {
+        int temp = arr[left];
+        arr[left] = arr[right];
+        arr[right] = temp;
+    }
 
     public void quickSort(int[] arr, int length) {
+
         quickSort0(arr, 0, length - 1);
     }
 
