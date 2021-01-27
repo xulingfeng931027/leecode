@@ -41,7 +41,7 @@ package 双指针;//我们把数组 A 中符合下列属性的任意连续子数
 
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+public class 寻找山脉 {
     public int longestMountain(int[] A) {
         int n = A.length;
         int left = 0;
@@ -68,8 +68,8 @@ class Solution {
     }
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
-        System.out.println(solution.longestMountain(new int[]{2, 1, 4, 7, 3, 2, 1, 8, 5}));
+        寻找山脉 寻找山脉 = new 寻找山脉();
+        System.out.println(寻找山脉.longestMountain(new int[]{2, 1, 4, 7, 3, 2, 1, 8, 5}));
 
     }
 }

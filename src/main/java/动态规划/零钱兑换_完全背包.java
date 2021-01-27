@@ -25,7 +25,7 @@ package 动态规划;//给定不同面额的硬币 coins 和一个总金额 amou
 import java.util.Arrays;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class 零钱兑换_动规解法 {
+class 零钱兑换_完全背包 {
 
 
     int[] coins;
@@ -34,11 +34,12 @@ class 零钱兑换_动规解法 {
         this.coins = coins;
         int[] dp = new int[amount + 1];
         Arrays.fill(dp, amount + 1);
+        //凑数目标金额所需的最小个数
         dp[0] = 0;
-        return dp(dp, amount);
+        return helper(dp, amount);
     }
 
-    public int dp(int[] dp, int amount) {
+    public int helper(int[] dp, int amount) {
         for (int i = 0; i < dp.length; i++) {
             for (int coin : coins) {
                 if (i - coin < 0) {
@@ -47,13 +48,14 @@ class 零钱兑换_动规解法 {
                 dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
             }
         }
+        System.out.println(Arrays.toString(dp));
         return dp[amount] == amount + 1 ? -1 : dp[amount];
     }
 
     public static void main(String[] args) {
         int[] coins = {1, 4, 2};
         int amount = 10;
-        System.out.println(new 零钱兑换_动规解法().coinChange(coins, amount));
+        System.out.println(new 零钱兑换_完全背包().coinChange(coins, amount));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

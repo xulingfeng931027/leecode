@@ -49,7 +49,7 @@ import org.junit.Test;
 import java.util.*;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-public class Solution {
+public class 目标和 {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
         Queue<String> queue = new LinkedList<>();
         Set<String> visited = new HashSet<>();

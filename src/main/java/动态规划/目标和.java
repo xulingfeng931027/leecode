@@ -37,7 +37,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class Solution {
+class 目标和 {
     private int[] nums;
     private Map<String, Integer> map = new HashMap<>();
 

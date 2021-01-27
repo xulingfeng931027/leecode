@@ -1,13 +1,14 @@
 package sort;
 
 import org.junit.Test;
+import 优先队列.Heap;
 
 /**
  * 堆排序实现
  *
  * @author 逼哥
  * @date 1/20/2020
- * @see tree.Heap
+ * @see Heap
  */
 public class HeapSort {
     private static void buildHeap(int[] nums, int count) {
