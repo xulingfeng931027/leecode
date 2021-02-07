@@ -23,24 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bfs/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked/删除链表指定节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/区间和个数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/双指针/有序数组去重.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OOMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OOMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SimpleSemaphore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SimpleSemaphore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/leecode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OOMTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/OOMTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/SimpleSemaphore$SimpleSync.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/SimpleSemaphore$SimpleSync.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +48,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="WARN_ABOUT_CRLF" value="false" />
   </component>
   <component name="JupyterTrust" id="cd59d11d-0a72-40b3-89d4-eeb0f3505a5f" />
@@ -233,19 +215,6 @@
     <configuration name="零钱兑换" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="零钱兑换" />
       <module name="leecode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -995,17 +964,17 @@
     <SUITE FILE_PATH="coverage/leecode$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1601787264940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>回溯.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/leecode$SimpleIOCTest_getBean.ic" NAME="SimpleIOCTest.getBean Coverage Results" MODIFIED="1577540449940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>spring.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/leecode$ReverseLinked_test.ic" NAME="ReverseLinked.test Coverage Results" MODIFIED="1569903904020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>linked.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>滑动窗口.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leecode$HeapSort.ic" NAME="HeapSort Coverage Results" MODIFIED="1604723596959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sort.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$SimpleIOCTest_getBean.ic" NAME="SimpleIOCTest.getBean Coverage Results" MODIFIED="1577540449940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>spring.*</FILTER>
+    <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>滑动窗口.*</FILTER>
     </SUITE>
   </component>
 </project>
