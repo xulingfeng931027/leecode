@@ -1,0 +1,16 @@
+
+K
+java:S1854B"5Remove this useless assignment to local variable "c".(ƒã–®
+V	java:S125C"<This block of commented-out lines of code should be removed.(ÆÊ‹Œýÿÿÿÿ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ô¯²òþÿÿÿÿ
+Q
+java:S2696-"6Make the enclosing method "static" or remove this set.(¡ªãÖúÿÿÿÿ
+Q
+java:S26963"6Make the enclosing method "static" or remove this set.(¡ªãÖúÿÿÿÿ
+<
+java:S1481B"&Remove this unused "c" local variable.(ƒã–®
+Q
+java:S26969"6Make the enclosing method "static" or remove this set.(¡ªãÖúÿÿÿÿ
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(â±é¤üÿÿÿÿ
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(¡ªãÖúÿÿÿÿ

@@ -13,22 +13,27 @@ import java.util.Arrays;
 public class QuickSort {
 
     private int partition(int[] arr, int low, int high) {
-        // 左指针从第二个数开始
-        int i = low + 1;
-        int j = high;
+        if (low == high) {
+            return low;
+        }
+        // 左指针从第一个
+        int i = low;
+        //右指针可以先越界
+        int j = high + 1;
         int temp = arr[low];
         while (true) {
-            // 找到左侧第一个不小于arr[low]的元素
-            while (arr[i] < temp) {
-                i++;
+            // 找到左侧第一个大于arr[low]的元素
+            while (arr[++i] <= temp) {
                 if (i == high) {
                     break;
                 }
             }
-            //  找到右侧第一个不大于arr[low]的元素
-            while (arr[j] > temp) {
+            //  找到右侧第一个小于arr[low]的元素
+            while (arr[--j] >= temp) {
                 //由于temp是low j不可能等于low
-                j--;
+                if (j == low) {
+                    break;
+                }
             }
             //当指针相遇了就终止
             if (i >= j) {
@@ -65,7 +70,7 @@ public class QuickSort {
 
     @Test
     public void quickSortTest() {
-        int[] arr = {4, 2, 1, 11, 9, 5, 3, 7};
+        int[] arr = {3, 3, 3, 3, 3, 3, 3, 3, 3};
         quickSort(arr, arr.length);
         System.out.println(Arrays.toString(arr));
     }

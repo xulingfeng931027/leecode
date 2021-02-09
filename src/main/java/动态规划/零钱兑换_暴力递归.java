@@ -27,34 +27,42 @@ class 零钱兑换_暴力递归 {
 
 
     int[] coins;
+    Integer[] dpTable;
+
+    public static void main(String[] args) {
+        int[] coins = {4, 5, 2};
+        int amount = 16;
+        System.out.println(new 零钱兑换_暴力递归().coinChange(coins, amount));
+    }
 
     public int coinChange(int[] coins, int amount) {
         this.coins = coins;
+        dpTable = new Integer[amount+1];
         return dp(amount);
     }
 
     public int dp(int amount) {
-        int result = Integer.MAX_VALUE;
         if (amount == 0) {
             return 0;
         }
         if (amount < 0) {
             return -1;
         }
+        if (dpTable[amount] != null) {
+            return dpTable[amount];
+        }
+        int result = Integer.MAX_VALUE;
         for (int coin : coins) {
-            int subProblem = dp(amount - coin);
-            if (subProblem == -1) {
+            int subSolution = dp((amount - coin));
+            if (subSolution == -1) {
+                //子问题某改
                 continue;
             }
-            result = Math.min(result, subProblem + 1);
+            result = Math.min(result, subSolution + 1);
+            //记录
+            dpTable[amount] = result;
         }
         return result == Integer.MAX_VALUE ? -1 : result;
-    }
-
-    public static void main(String[] args) {
-        int[] coins = {4,5, 2};
-        int amount = 15;
-        System.out.println(new 零钱兑换_暴力递归().coinChange(coins, amount));
     }
 }
 //leetcode submit region end(Prohibit modification and deletion)

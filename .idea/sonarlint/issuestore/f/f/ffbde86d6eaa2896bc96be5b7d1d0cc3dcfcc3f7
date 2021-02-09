@@ -1,4 +1,7 @@
 
-N	java:S106"9Replace this use of System.out or System.err by a logger.(½õÉ
-P
-java:S1128"0Remove this unused import 'java.io.IOException'.(ªº»Úıÿÿÿÿ8¡‹¯ÊÓ.
+”
+java:S1130"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(÷™š8Øñå­Ó.
+‰
+java:S1130"lRemove the declaration of thrown exception 'java.io.IOException', as it cannot be thrown from method's body.(÷™š8Øñå­Ó.
+S	java:S106"9Replace this use of System.out or System.err by a logger.(Ï›²ñûÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(©Ú–
