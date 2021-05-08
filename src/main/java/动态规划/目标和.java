@@ -33,20 +33,41 @@ package 动态规划;//给定一个非负整数数组，a1, a2, ..., an, 和一�
 // 👍 442 👎 0
 
 
+import org.junit.Test;
+
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
 //leetcode submit region begin(Prohibit modification and deletion)
-class 目标和 {
+public class 目标和 {
     private int[] nums;
     private Map<String, Integer> map = new HashMap<>();
 
     public int findTargetSumWays(int[] nums, int S) {
         this.nums = nums;
-        return dp(0, S);
+        int sum = Arrays.stream(nums).sum();
+        if ((S + sum) % 2 != 0) {
+            return 0;
+        }
+        int target = (S + sum) / 2;
+        int[] dp = new int[target + 1];
+        dp[0] = 1;
+        for (int num : nums) {
+            for (int j = target; j >= num; j--) {
+                //比如这时候有一个数是2  凑出dp[5]的方法数 等于凑出dp[3]的方法数 加上原本(不存在这个2时)dp[5]的方法数
+                dp[j] += dp[j - num];
+            }
+        }
+        return dp[target];
     }
 
-    int dp(int i, int result) {
+    @Test
+    public void test() {
+        System.out.println(findTargetSumWays(new int[]{1, 1, 1, 1, 1}, 3));
+    }
+
+    private int dp(int i, int result) {
         if (i == nums.length) {
             if (result == 0) {
                 return 1;

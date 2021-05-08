@@ -23,59 +23,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
-      <change afterPath="$PROJECT_DIR$/.idea/setting.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/2/0255c015d206e1c082e3ea7ca78272d62fe74016" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/174b6b77f9e498c4d2130b7c56742b3abb0dd431" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/198f51bc9ce66e8b316b52d558070125142f0d22" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/4/24f5c6efce8a69c75a006ad24cfafff3e37a0e50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/b/3bd28e40b433ab32b63b5bfed0305eb6875adf75" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/c/3c99c88593fb5079cc87c3680728c6574e1bd24e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a97e36f15ee5d5de7d55392a1ed96849660b7d6" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e1d1083192753a7663628e0017ffffe55ae10ed" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71379e641123a523dff496fecfc394187834534b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/71d57ee959f0e27fa13d46b24ab9a94fccee105a" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/799e616c80f9abbeb43848bf44edb2ce99070f3c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/8056b23a7bb093ccc63f44c6c48bb9f3544f373e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89d306ed1c46736d237cfc9e9851e0d89ed33784" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89d953eaa4860dfb444b75c5d68172fb3087b88d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/4/a4c69f77d922fe0346549b4b410eff973f2a8a9d" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/6/b68bbb0042b057b1211d76a1abacf5b5bde78cbe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b95ad8d607853d25adb780ea0a71ab894edf6100" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/b/bbe8fdaf94df000b52a351cd450da1de2c993ed1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/a/da6982d718a6c8b8f90905e884684c2cfe05be46" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2bf05cb137e8807d91daf4388df12d4ad094fbf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/9/e98be0e1c1ddeb2364ad0428076d846f05d15ec1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/f/ffbde86d6eaa2896bc96be5b7d1d0cc3dcfcc3f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ThreadPoolExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/recursion/目标和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/优先队列/PriorityQueue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/戳气球.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/打家劫舍.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/扔鸡蛋.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/最大子数组.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/最长递增子序列.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/背包01问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/走格子.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/华为机试/计算字母出现次数.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/双指针/三数之和.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/双指针/移除元素.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/判断是否是子串.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/最小覆盖子串.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked/ReverseLinked2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/linked/删除链表重复节点.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/完全背包问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/编辑距离.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bfs/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bfs/目标和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/HeapSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/tree/Heap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/优先队列/Heap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/目标和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_动规解法.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_完全背包.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_暴力递归.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_暴力递归.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/双指针/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/双指针/寻找山脉.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/HeapSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/打家劫舍.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/打家劫舍.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/目标和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/目标和.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/背包01问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/背包01问题.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_完全背包.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_完全背包.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/滑动窗口/最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/最长子串.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/tree/Heap.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/动态规划/零钱兑换_暴力递归.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/动态规划/零钱兑换_暴力递归.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,6 +79,10 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/lang/Math.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/Random.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="JupyterTrust" id="cd59d11d-0a72-40b3-89d4-eeb0f3505a5f" />
   <component name="MavenImportPreferences">
@@ -169,51 +141,139 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="动态规划" />
       <recent name="回溯" />
       <recent name="tree" />
       <recent name="回溯算法" />
-      <recent name="动态规划" />
       <recent name="proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.移除元素.test">
-    <configuration name="判断是否是子串" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="应用程序.全排列">
+    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="dfs.全排列" />
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="滑动窗口.*" />
+          <option name="PATTERN" value="dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="滑动窗口" />
-      <option name="MAIN_CLASS_NAME" value="滑动窗口.判断是否是子串" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="移除元素.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="打家劫舍" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="双指针.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="双指针" />
-      <option name="MAIN_CLASS_NAME" value="双指针.移除元素" />
+      <option name="PACKAGE_NAME" value="动态规划" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.打家劫舍" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort.quickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
+      <option name="METHOD_NAME" value="quickSortTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLinked2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked" />
+      <option name="MAIN_CLASS_NAME" value="linked.ReverseLinked2" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="删除链表重复节点" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="linked.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="linked" />
+      <option name="MAIN_CLASS_NAME" value="linked.删除链表重复节点" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="全排列" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="回溯" />
+      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="打家劫舍.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="动态规划" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.打家劫舍" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="最小覆盖子串.testWithError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="最长子串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -222,24 +282,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="滑动窗口" />
-      <option name="MAIN_CLASS_NAME" value="滑动窗口.最小覆盖子串" />
-      <option name="METHOD_NAME" value="testWithError" />
+      <option name="MAIN_CLASS_NAME" value="滑动窗口.最长子串" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="寻找山脉.testWithError" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="目标和.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="滑动窗口.*" />
+          <option name="PATTERN" value="动态规划.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="滑动窗口" />
-      <option name="MAIN_CLASS_NAME" value="滑动窗口.寻找山脉" />
-      <option name="METHOD_NAME" value="testWithError" />
+      <option name="PACKAGE_NAME" value="动态规划" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.目标和" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,15 +370,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.最小覆盖子串.testWithError" />
-      <item itemvalue="JUnit.移除元素.test" />
-      <item itemvalue="JUnit.判断是否是子串" />
+      <item itemvalue="JUnit.QuickSort.quickSortTest" />
+      <item itemvalue="JUnit.ReverseLinked2" />
+      <item itemvalue="JUnit.打家劫舍" />
+      <item itemvalue="JUnit.打家劫舍.test" />
+      <item itemvalue="应用程序.全排列" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.移除元素.test" />
-        <item itemvalue="JUnit.判断是否是子串" />
-        <item itemvalue="JUnit.最小覆盖子串.testWithError" />
+        <item itemvalue="应用程序.全排列" />
+        <item itemvalue="JUnit.QuickSort.quickSortTest" />
+        <item itemvalue="JUnit.打家劫舍.test" />
+        <item itemvalue="JUnit.打家劫舍" />
+        <item itemvalue="JUnit.ReverseLinked2" />
       </list>
     </recent_temporary>
   </component>
@@ -732,7 +796,37 @@
       <workItem from="1611669442992" duration="1006000" />
       <workItem from="1611670602429" duration="286000" />
       <workItem from="1611670914904" duration="3981000" />
-      <workItem from="1611752508540" duration="2104000" />
+      <workItem from="1611752508540" duration="5592000" />
+      <workItem from="1611795256348" duration="904000" />
+      <workItem from="1611808098548" duration="15663000" />
+      <workItem from="1611841471002" duration="4980000" />
+      <workItem from="1611880494773" duration="665000" />
+      <workItem from="1611882834643" duration="4614000" />
+      <workItem from="1612071298537" duration="6724000" />
+      <workItem from="1612184056906" duration="11008000" />
+      <workItem from="1612327653572" duration="1017000" />
+      <workItem from="1612415216689" duration="1060000" />
+      <workItem from="1612425768712" duration="3041000" />
+      <workItem from="1612685785001" duration="1002000" />
+      <workItem from="1612686863777" duration="6730000" />
+      <workItem from="1613717348630" duration="2317000" />
+      <workItem from="1613723250538" duration="8771000" />
+      <workItem from="1613796943280" duration="1989000" />
+      <workItem from="1613829978648" duration="2762000" />
+      <workItem from="1613868328162" duration="436000" />
+      <workItem from="1613922244657" duration="2755000" />
+      <workItem from="1613954473484" duration="98000" />
+      <workItem from="1613954607044" duration="593000" />
+      <workItem from="1614147981790" duration="2954000" />
+      <workItem from="1615797444701" duration="354000" />
+      <workItem from="1616646139330" duration="1007000" />
+      <workItem from="1616733161767" duration="1534000" />
+      <workItem from="1617074337642" duration="2523000" />
+      <workItem from="1618453530060" duration="898000" />
+      <workItem from="1619167678754" duration="2836000" />
+      <workItem from="1619225118502" duration="164000" />
+      <workItem from="1619225365616" duration="13250000" />
+      <workItem from="1619399407253" duration="2710000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -818,7 +912,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606716128788</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="算法代码提交">
+      <created>1611757466444</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1611757466444</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -951,15 +1052,6 @@
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/滑动窗口/最小覆盖子串.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[27]移除元素.java</url>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/双指针/移除元素.java</url>
           <line>15</line>
           <option name="timeStamp" value="156" />
@@ -968,6 +1060,31 @@
           <url>file://$PROJECT_DIR$/src/main/java/双指针/移除元素.java</url>
           <line>22</line>
           <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <condition expression="j==11" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/动态规划/Solution.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="164" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/动态规划/Solution.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="165" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/动态规划/完全背包问题.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.java</url>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/linked/删除链表重复节点.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="181" />
         </line-breakpoint>
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.lang.NegativeArraySizeException" package="java.lang" />
@@ -982,6 +1099,7 @@
     <pin-to-top-manager>
       <pinned-members>
         <PinnedItemInfo />
+        <PinnedItemInfo parentTag="linked.ListNode" memberName="next" />
       </pinned-members>
     </pin-to-top-manager>
   </component>
@@ -999,14 +1117,14 @@
     <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>滑动窗口.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/leecode$_test.ic" NAME="移除元素.test 覆盖结果" MODIFIED="1611135345230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>双指针.*</FILTER>
+    </SUITE>
     <SUITE FILE_PATH="coverage/leecode$HeapSort.ic" NAME="HeapSort Coverage Results" MODIFIED="1604723596959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>sort.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/leecode$SimpleIOCTest_getBean.ic" NAME="SimpleIOCTest.getBean Coverage Results" MODIFIED="1577540449940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>spring.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$_test.ic" NAME="移除元素.test 覆盖结果" MODIFIED="1611135345230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>双指针.*</FILTER>
     </SUITE>
   </component>
 </project>

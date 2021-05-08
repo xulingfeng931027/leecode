@@ -40,11 +40,8 @@ class 零钱兑换_完全背包 {
     }
 
     public int helper(int[] dp, int amount) {
-        for (int i = 0; i < dp.length; i++) {
-            for (int coin : coins) {
-                if (i - coin < 0) {
-                    continue;
-                }
+        for (int coin : coins) {
+            for (int i = coin; i < dp.length; i++) {
                 dp[i] = Math.min(dp[i], 1 + dp[i - coin]);
             }
         }
@@ -53,7 +50,7 @@ class 零钱兑换_完全背包 {
     }
 
     public static void main(String[] args) {
-        int[] coins = {1, 4, 2};
+        int[] coins = {1, 4, 2,5};
         int amount = 10;
         System.out.println(new 零钱兑换_完全背包().coinChange(coins, amount));
     }

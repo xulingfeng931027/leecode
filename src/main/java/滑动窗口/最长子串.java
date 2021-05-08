@@ -47,7 +47,7 @@ public class 最长子串 {
             while (map.get(c1) > 1) {
                 char c2 = s.charAt(left);
                 System.out.println("左侧指针前进后"+builder.deleteCharAt(0));
-                map.put(c2, map.getOrDefault(c2, 0) - 1);
+                map.compute(c2, (k, v) -> v <= 1 ? null : v - 1);
                 left++;
             }
             result = Math.max(result, right - left);

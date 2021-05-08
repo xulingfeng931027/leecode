@@ -1,5 +1,7 @@
 package 回溯;
 
+import org.junit.Test;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,26 +19,23 @@ public class 全排列 {
     int result = 0;
     private int[] nums;
 
-    public static void main(String[] args) {
-        全排列 test = new 全排列();
-        System.out.println(test.solution(new int[]{1, 2, 3}));
-//        System.out.println(全排列.res);
-//        System.out.println(test.solution2(4));
-
+    @Test
+    public void main() {
+        System.out.println(solution(new int[]{1, 2}));
     }
 
     public List<List<Integer>> solution(int[] nums) {
         this.nums = nums;
         //记录路径
         List<Integer> track = new ArrayList<>();
-        backTrack(track, 0);
+        backTrack(track);
         return res;
     }
 
     // 路径：记录在 track 中
 // 选择列表：nums 中不存在于 track 的那些元素
 // 结束条件：nums 中的元素全都在 track 中出现
-    void backTrack(List<Integer> track, int start) {
+    void backTrack(List<Integer> track) {
         //触发结束条件
         if (track.size() == nums.length) {
             res.add(new ArrayList<>(track));
@@ -51,7 +50,7 @@ public class 全排列 {
             //做选择
             track.add(num);
             //进入下一层
-            backTrack(track, start + 1);
+            backTrack(track);
             //回退到上一步
             track.remove(track.size() - 1);
         }

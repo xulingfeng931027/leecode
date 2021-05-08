@@ -12,37 +12,21 @@ import java.util.Arrays;
  */
 public class QuickSort {
 
-    private int partition(int[] arr, int low, int high) {
+    private int partition2(int[] arr, int low, int high) {
         if (low == high) {
             return low;
         }
         // 左指针从第一个
         int i = low;
-        //右指针可以先越界
-        int j = high + 1;
-        int temp = arr[low];
-        while (true) {
-            // 找到左侧第一个大于arr[low]的元素
-            while (arr[++i] <= temp) {
-                if (i == high) {
-                    break;
-                }
+        //分区点取最右边的数
+        for (int j = low; j < high; j++) {
+            if (arr[j] < arr[high]) {
+                swap(arr, i, j);
+                i++;
             }
-            //  找到右侧第一个小于arr[low]的元素
-            while (arr[--j] >= temp) {
-                //由于temp是low j不可能等于low
-                if (j == low) {
-                    break;
-                }
-            }
-            //当指针相遇了就终止
-            if (i >= j) {
-                break;
-            }
-            swap(arr, i, j);
         }
-        swap(arr, low, j);
-        return j; // 返回tmp的正确位置
+        swap(arr, i, high);
+        return i; // 返回tmp的正确位置
     }
 
     private void swap(int[] arr, int left, int right) {
@@ -62,7 +46,7 @@ public class QuickSort {
             return;
         }
         //获取分区点
-        int q = partition(arr, left, right);
+        int q = partition2(arr, left, right);
 
         quickSort0(arr, left, q - 1);
         quickSort0(arr, q + 1, right);
@@ -70,7 +54,7 @@ public class QuickSort {
 
     @Test
     public void quickSortTest() {
-        int[] arr = {3, 3, 3, 3, 3, 3, 3, 3, 3};
+        int[] arr = {1, 7, 6, 3, 5, 4};
         quickSort(arr, arr.length);
         System.out.println(Arrays.toString(arr));
     }
