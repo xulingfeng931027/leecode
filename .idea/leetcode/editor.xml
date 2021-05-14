@@ -211,11 +211,27 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1269]停在原地的方案数.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1269]停在原地的方案数.java" />
+              <option name="questionId" value="1398" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[129]求根到叶子节点数字之和.java">
           <value>
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[129]求根到叶子节点数字之和.java" />
               <option name="questionId" value="129" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[12]整数转罗马数字.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[12]整数转罗马数字.java" />
+              <option name="questionId" value="12" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -344,6 +360,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[17]电话号码的字母组合.java" />
               <option name="questionId" value="17" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[188]买卖股票的最佳时机 IV.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[188]买卖股票的最佳时机 IV.java" />
+              <option name="questionId" value="188" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -616,6 +640,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[306]累加数.java" />
               <option name="questionId" value="306" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[309]最佳买卖股票时机含冷冻期.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[309]最佳买卖股票时机含冷冻期.java" />
+              <option name="questionId" value="309" />
             </LeetcodeEditor>
           </value>
         </entry>
@@ -1099,6 +1131,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[714]买卖股票的最佳时机含手续费.java" />
+              <option name="questionId" value="714" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[739]每日温度.java">
           <value>
             <LeetcodeEditor>
@@ -1216,6 +1256,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[85]最大矩形.java" />
               <option name="questionId" value="85" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[872]叶子相似的树.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[872]叶子相似的树.java" />
+              <option name="questionId" value="904" />
             </LeetcodeEditor>
           </value>
         </entry>

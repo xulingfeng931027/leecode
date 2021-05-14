@@ -23,27 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked/ReverseLinked2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/linked/删除链表重复节点.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/完全背包问题.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/编辑距离.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/股票问题.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/linked/ListNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/打家劫舍.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/打家劫舍.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/目标和.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/目标和.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/背包01问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/背包01问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_完全背包.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/零钱兑换_完全背包.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/回溯/全排列.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/滑动窗口/最长子串.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/滑动窗口/最长子串.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,27 +133,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="sort" />
       <recent name="动态规划" />
       <recent name="回溯" />
       <recent name="tree" />
       <recent name="回溯算法" />
-      <recent name="proxy" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.全排列">
-    <configuration name="全排列" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="dfs.全排列" />
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.股票问题">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -181,7 +152,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="打家劫舍" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="全排列" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="回溯.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="回溯" />
+      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="股票问题" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -190,7 +176,22 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="动态规划" />
-      <option name="MAIN_CLASS_NAME" value="动态规划.打家劫舍" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.股票问题" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sort" />
+      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -212,52 +213,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLinked2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linked" />
-      <option name="MAIN_CLASS_NAME" value="linked.ReverseLinked2" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="删除链表重复节点" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="linked" />
-      <option name="MAIN_CLASS_NAME" value="linked.删除链表重复节点" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="全排列" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="回溯.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="回溯" />
-      <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="打家劫舍.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="股票问题.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
         <pattern>
@@ -266,23 +222,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="动态规划" />
-      <option name="MAIN_CLASS_NAME" value="动态规划.打家劫舍" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="最长子串.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="滑动窗口.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="滑动窗口" />
-      <option name="MAIN_CLASS_NAME" value="滑动窗口.最长子串" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.股票问题" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -370,19 +310,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.QuickSort" />
       <item itemvalue="JUnit.QuickSort.quickSortTest" />
-      <item itemvalue="JUnit.ReverseLinked2" />
-      <item itemvalue="JUnit.打家劫舍" />
-      <item itemvalue="JUnit.打家劫舍.test" />
-      <item itemvalue="应用程序.全排列" />
+      <item itemvalue="JUnit.全排列" />
+      <item itemvalue="JUnit.股票问题.test" />
+      <item itemvalue="JUnit.股票问题" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.全排列" />
+        <item itemvalue="JUnit.股票问题" />
+        <item itemvalue="JUnit.股票问题.test" />
+        <item itemvalue="JUnit.全排列" />
         <item itemvalue="JUnit.QuickSort.quickSortTest" />
-        <item itemvalue="JUnit.打家劫舍.test" />
-        <item itemvalue="JUnit.打家劫舍" />
-        <item itemvalue="JUnit.ReverseLinked2" />
+        <item itemvalue="JUnit.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -827,6 +767,15 @@
       <workItem from="1619225118502" duration="164000" />
       <workItem from="1619225365616" duration="13250000" />
       <workItem from="1619399407253" duration="2710000" />
+      <workItem from="1620465936315" duration="772000" />
+      <workItem from="1620607701355" duration="590000" />
+      <workItem from="1620608996012" duration="10674000" />
+      <workItem from="1620695566564" duration="7818000" />
+      <workItem from="1620805887994" duration="7174000" />
+      <workItem from="1620866968880" duration="664000" />
+      <workItem from="1620868522624" duration="4574000" />
+      <workItem from="1620888526530" duration="1376000" />
+      <workItem from="1620954307150" duration="5039000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -919,7 +868,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611757466444</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="算法代码提交">
+      <created>1620465960939</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1620465960939</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

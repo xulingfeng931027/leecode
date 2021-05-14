@@ -18,7 +18,7 @@ public class QuickSort {
         }
         // 左指针从第一个
         int i = low;
-        //分区点取最右边的数
+        //分区基准取最右边的数
         for (int j = low; j < high; j++) {
             if (arr[j] < arr[high]) {
                 swap(arr, i, j);
