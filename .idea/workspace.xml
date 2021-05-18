@@ -22,12 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="算法代码提交">
-      <change afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/动态规划/股票问题.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+    <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="股票问题解决">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/动态规划/股票问题.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/动态规划/股票问题.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,18 +137,7 @@
       <recent name="回溯算法" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.股票问题">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.股票问题.test">
     <configuration name="全排列" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="leecode" />
       <extension name="coverage">
@@ -162,21 +148,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="回溯" />
       <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="股票问题" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="动态规划" />
-      <option name="MAIN_CLASS_NAME" value="动态规划.股票问题" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -209,6 +180,21 @@
       <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="METHOD_NAME" value="quickSortTest" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="股票问题" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="leecode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="动态规划.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="动态规划" />
+      <option name="MAIN_CLASS_NAME" value="动态规划.股票问题" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -314,11 +300,9 @@
       <item itemvalue="JUnit.QuickSort.quickSortTest" />
       <item itemvalue="JUnit.全排列" />
       <item itemvalue="JUnit.股票问题.test" />
-      <item itemvalue="JUnit.股票问题" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.股票问题" />
         <item itemvalue="JUnit.股票问题.test" />
         <item itemvalue="JUnit.全排列" />
         <item itemvalue="JUnit.QuickSort.quickSortTest" />
@@ -775,7 +759,7 @@
       <workItem from="1620866968880" duration="664000" />
       <workItem from="1620868522624" duration="4574000" />
       <workItem from="1620888526530" duration="1376000" />
-      <workItem from="1620954307150" duration="5039000" />
+      <workItem from="1620954307150" duration="7430000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -875,7 +859,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620465960939</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="股票问题解决">
+      <created>1620981469461</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620981469461</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -902,7 +893,8 @@
     <MESSAGE value="三数之和代码提交" />
     <MESSAGE value="默认更改列表" />
     <MESSAGE value="算法代码提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="算法代码提交" />
+    <MESSAGE value="股票问题解决" />
+    <option name="LAST_COMMIT_MESSAGE" value="股票问题解决" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">

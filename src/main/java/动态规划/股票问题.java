@@ -137,7 +137,6 @@ public class 股票问题 {
     public int maxProfit5(int[] prices, int K) {
         int n = prices.length;
         int[][][] dp = new int[prices.length][K+1][2];
-        int maxProfit = 0;
         for (int i = 0; i < n; i++) {
             for (int k = 1; k <= K; k++) {
                 if (i == 0) {
@@ -148,10 +147,9 @@ public class 股票问题 {
                     //买的时候需要k-1
                     dp[i][k][1] = Math.max(dp[i - 1][k][1], dp[i - 1][k-1][0] - prices[i]);
                 }
-                maxProfit = Math.max(dp[i][k][0], maxProfit);
             }
         }
-        return maxProfit;
+        return dp[n - 1][K][0];
     }
 
 
