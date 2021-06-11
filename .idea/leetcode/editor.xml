@@ -347,6 +347,14 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1738]找出第 K 大的异或坐标值.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[1738]找出第 K 大的异或坐标值.java" />
+              <option name="questionId" value="1860" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[173]二叉搜索树迭代器.java">
           <value>
             <LeetcodeEditor>
@@ -1104,6 +1112,14 @@
             <LeetcodeEditor>
               <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[674]最长连续递增序列.java" />
               <option name="questionId" value="674" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[692]前K个高频单词.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="path" value="$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[692]前K个高频单词.java" />
+              <option name="questionId" value="692" />
             </LeetcodeEditor>
           </value>
         </entry>

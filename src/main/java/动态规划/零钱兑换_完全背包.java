@@ -23,7 +23,7 @@ package 动态规划;//给定不同面额的硬币 coins 和一个总金额 amou
 
 
 import java.util.Arrays;
-
+//完全平方数 跟此题解法很类似
 //leetcode submit region begin(Prohibit modification and deletion)
 class 零钱兑换_完全背包 {
 
