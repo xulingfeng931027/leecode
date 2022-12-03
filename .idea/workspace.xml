@@ -23,9 +23,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58e009be-fcad-4c13-ab35-51be00af2787" name="默认更改列表" comment="股票问题解决">
+      <change afterPath="$PROJECT_DIR$/src/main/java/dfs/岛屿问题/岛屿最大面积.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/华为机试/幼儿园分班.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/回溯/养鸡笼.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/leecode.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/leetcode/editor.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/leetcode/editor.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_33____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_35____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_7_22_39____.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/_2021_2_9_11_24____.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HashMap.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sort/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sort/QuickSort2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sort/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/动态规划/零钱兑换_备忘录递归.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/动态规划/零钱兑换_暴力递归.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +49,6 @@
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,17 +74,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/lang/Math.java" root0="FORCE_HIGHLIGHTING" />
-    <setting file="jar://C:/Program Files/Java/jdk1.8.0_271/src.zip!/java/util/Random.java" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="JupyterTrust" id="cd59d11d-0a72-40b3-89d4-eeb0f3505a5f" />
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="userSettingsFile" value="D:\settings.xml" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadAnnotationsAutomatically" value="true" />
@@ -96,33 +102,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="mysql" />
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
-    <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../wsjc_code/wsf-platform" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="模块" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/leecode&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;项目&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
   <component name="ReaderModeSettings">
     <option name="enabled" value="false" />
   </component>
@@ -138,16 +128,17 @@
       <recent name="回溯算法" />
     </key>
   </component>
-  <component name="RunManager" selected="应用程序.零钱兑换_完全背包">
-    <configuration name="零钱兑换_完全背包" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="动态规划.零钱兑换_完全背包" />
+  <component name="RunManager" selected="应用程序.计算字母出现次数">
+    <configuration name="幼儿园分班" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为机试.幼儿园分班" />
       <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="动态规划.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="计算字母出现次数" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="华为机试.计算字母出现次数" />
+      <module name="leecode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -162,21 +153,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="回溯" />
       <option name="MAIN_CLASS_NAME" value="回溯.全排列" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="QuickSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="leecode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="sort" />
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -310,19 +286,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.QuickSort" />
       <item itemvalue="JUnit.QuickSort.quickSortTest" />
       <item itemvalue="JUnit.全排列" />
       <item itemvalue="JUnit.股票问题.test" />
-      <item itemvalue="应用程序.零钱兑换_完全背包" />
+      <item itemvalue="应用程序.幼儿园分班" />
+      <item itemvalue="应用程序.计算字母出现次数" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.零钱兑换_完全背包" />
+        <item itemvalue="应用程序.计算字母出现次数" />
+        <item itemvalue="应用程序.幼儿园分班" />
         <item itemvalue="JUnit.股票问题.test" />
         <item itemvalue="JUnit.全排列" />
         <item itemvalue="JUnit.QuickSort.quickSortTest" />
-        <item itemvalue="JUnit.QuickSort" />
       </list>
     </recent_temporary>
   </component>
@@ -782,6 +758,38 @@
       <workItem from="1621924334562" duration="108000" />
       <workItem from="1623382191045" duration="297000" />
       <workItem from="1623391865792" duration="855000" />
+      <workItem from="1638498438749" duration="390000" />
+      <workItem from="1638498845198" duration="9134000" />
+      <workItem from="1638752935152" duration="3961000" />
+      <workItem from="1639125978647" duration="753000" />
+      <workItem from="1639922439639" duration="5740000" />
+      <workItem from="1639961489372" duration="544000" />
+      <workItem from="1645106110540" duration="1035000" />
+      <workItem from="1645255365547" duration="119000" />
+      <workItem from="1645255500268" duration="2576000" />
+      <workItem from="1645341960299" duration="3387000" />
+      <workItem from="1645760950734" duration="596000" />
+      <workItem from="1645937210403" duration="1808000" />
+      <workItem from="1646660782730" duration="1888000" />
+      <workItem from="1647221759530" duration="2610000" />
+      <workItem from="1647264877315" duration="642000" />
+      <workItem from="1647309563621" duration="377000" />
+      <workItem from="1667808202492" duration="2832000" />
+      <workItem from="1667874030214" duration="10000" />
+      <workItem from="1668072585595" duration="709000" />
+      <workItem from="1668131415518" duration="632000" />
+      <workItem from="1668134627026" duration="218000" />
+      <workItem from="1668870529799" duration="4775000" />
+      <workItem from="1669022386092" duration="1828000" />
+      <workItem from="1669108831872" duration="1754000" />
+      <workItem from="1669867552128" duration="1174000" />
+      <workItem from="1669888308793" duration="7632000" />
+      <workItem from="1669974315004" duration="5606000" />
+      <workItem from="1670073505437" duration="115000" />
+      <workItem from="1670073634093" duration="55000" />
+      <workItem from="1670073700449" duration="24000" />
+      <workItem from="1670073875263" duration="63000" />
+      <workItem from="1670073948015" duration="563000" />
     </task>
     <task id="LOCAL-00001" summary="代码提交">
       <created>1574004914259</created>
@@ -914,7 +922,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -980,11 +987,6 @@
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/有效的括号.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/回溯/组合总和.java</url>
           <line>2</line>
           <option name="timeStamp" value="69" />
@@ -1045,11 +1047,6 @@
           <option name="timeStamp" value="165" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/动态规划/完全背包问题.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$USER_HOME$/AppData/Local/Temp/leetcode/editor/cn/[剑指 Offer 13]机器人的运动范围.java</url>
           <option name="timeStamp" value="173" />
         </line-breakpoint>
@@ -1078,25 +1075,5 @@
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
-  </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leecode$Solution.ic" NAME="Solution Coverage Results" MODIFIED="1601787264940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>回溯.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$ReverseLinked_test.ic" NAME="ReverseLinked.test Coverage Results" MODIFIED="1569903904020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>linked.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$.ic" NAME="最长子串 Coverage Results" MODIFIED="1603900334384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>滑动窗口.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$_test.ic" NAME="移除元素.test 覆盖结果" MODIFIED="1611135345230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>双指针.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$HeapSort.ic" NAME="HeapSort Coverage Results" MODIFIED="1604723596959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>sort.*</FILTER>
-    </SUITE>
-    <SUITE FILE_PATH="coverage/leecode$SimpleIOCTest_getBean.ic" NAME="SimpleIOCTest.getBean Coverage Results" MODIFIED="1577540449940" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
-      <FILTER>spring.*</FILTER>
-    </SUITE>
   </component>
 </project>

@@ -11,4 +11,9 @@
       </profile>
     </annotationProcessing>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="leecode" options="--add-exports java.management/com.sun.jmx.remote.internal=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>

@@ -16,8 +16,7 @@ public class QuickSort {
         if (low == high) {
             return low;
         }
-        // 左指针从第一个
-        int i = low;
+         int i = low;
         //分区基准取最右边的数
         for (int j = low; j < high; j++) {
             if (arr[j] < arr[high]) {
@@ -28,6 +27,9 @@ public class QuickSort {
         swap(arr, i, high);
         return i; // 返回tmp的正确位置
     }
+
+
+
 
     private void swap(int[] arr, int left, int right) {
         int temp = arr[left];
